@@ -1,0 +1,24 @@
+.wrapper {
+  margin: 0 auto;
+  width: 500px;
+}
+.line {
+  border: 1px solid grey;
+}
+h1{
+  color: red;
+  text-align: center;
+}
+img {
+  display: block;
+  width: 500px;
+  margin: 0;
+}
+
+p {
+  text-align: center;
+}
+a {
+  color: blue;
+  text-decoration: line-through;
+}

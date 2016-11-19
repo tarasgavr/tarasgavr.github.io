@@ -1,0 +1,111 @@
+body {
+    background-color:   #f9f9f9;
+}
+
+.wrapper {
+    margin:             0 auto;
+    padding:            0 50px 20px;
+    width:              1080px;
+    height:             100vh;
+    background-color:   white;
+    box-shadow:         0 5px 5px 0 rgba(0, 0, 0, 0.3);
+}
+.header h1{
+  padding-top: 20px;
+}
+.top_menu {
+  padding-left:     10px;
+  margin-bottom:    20px;
+  margin-top:       20px;
+  background-color: #545454;
+}
+.top_menu li {
+  display: inline-block;
+  color:   white;
+}
+.top_menu li:first-child {
+  margin-left: 20px;
+}
+.top_menu li a {
+  display:            block;
+  padding:            0 45px;
+  height:             40px;
+  line-height:        40px;
+  border-left:        1px solid transparent;
+  border-right:       1px solid transparent;
+  cursor:             pointer;
+}
+.top_menu li a:hover {
+  border-right:     1px solid white;
+  border-left:      1px solid white;
+  background-color: black;
+}
+.sidebar {
+  display: inline-block;
+  width: 240px;
+  box-sizing: border-box;
+  list-style: none;
+}
+.sidebar li:first-child {
+  border-top:         1px solid #c8c8c8;
+}
+.sidebar li {
+  border-bottom:      1px solid #c8c8c8;
+  border-left:        1px solid #c8c8c8;
+  border-right:       1px solid #c8c8c8;
+}
+.sidebar li a {
+  display:            block;
+  height:             40px;
+  line-height:        40px;
+  text-indent:        20px;
+  text-decoration:    none;
+  cursor: pointer;
+}
+.sidebar li a:hover {
+  text-indent:        30px;
+  background-color:   #f9f9f9;
+  color:              #2c2c2c;
+}
+.content {
+  display: inline-block;
+  vertical-align:     top;
+  margin-left:        50px;
+  width:              767px;
+}
+.photo {
+    display:            block;
+    width:              590px;
+    padding:            20px 87px;
+    border:             1px solid #c8c8c8;
+}
+.text_gen {
+  padding-top: 20px;
+  margin:      30px 46px;
+  display:     block;
+  text-align:  justify;
+  text-indent: 10px;
+}
+.footer {
+  width:            100%;
+  height:           40px;
+  background-color: #e1e1e1;
+}
+.footer ul {
+  display: inline-block;
+}
+.footer li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px 50px 10px 10px;
+  color: black;
+}
+.footer li:hover {
+  text-decoration: underline;
+}
+.footer p {
+  display:            inline-block;
+  margin:             0 0 0 320px;
+  height:             40px;
+  line-height:        40px;
+}
