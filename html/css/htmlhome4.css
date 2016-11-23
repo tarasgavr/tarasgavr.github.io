@@ -1,20 +1,92 @@
 body {
-  background: linear-gradient(to top,#0c739f,#3fc4d2 80%, white 80%, #12cee1 95%, #128aa7 95%);
+  background: linear-gradient(to top,#0c739f,#3fc4d2 80%, white 80%, #12cee1 98%, #128aa7 98%);
 }
 .wrapper {
   margin:             0 auto;
-  width:              970px;
-  height:             95vh;
+  width:              1080px;
+  height:             96vh;
   background-color:   white;
   box-shadow:         0 5px 5px 0 rgba(0, 0, 0, 0.53);
 }
-.header {
-  height: 20%;
-}
 .holy {
-  float: left;
+  height: 150px;
+}
+.info {
+  float: right;
+  padding-right: 40px;
+}
+.flags-pane {
+  clear: right;
+  float: right;
+  padding-right: 40px;
+  padding-top: 18px;
 }
 .flags {
   display: inline-block;
+}
+.beach {
+  width: 1080px;
+  height: 150px;
+}
+.menu {
+  list-style-type: none;
+  background-color: black;
+  border: 5px solid hsla( 200, 80%, 30%, 0.1);
+  box-shadow: 5px 5px 5px hsla( 200, 0%, 0%, 0.5);
+}
+.menu:after {
+  display: block;
+  content: ' ';
+  clear: both;
+}
+.menu_item {
+  float: left;
+  position: relative;
+  width: 150px;
+}
+.menu_link {
+  display: block;
+  color: white;
+  text-align: center;
+}
+.submenu {
+  display: none;
+  position: absolute;
+  list-style-type: none;
+  background-color: black;
+  width: 150px;
+}
+.submenu_item {
+  display: block;
+}
+.submenu_link {
+  display: block;
+  color: white;
+}
+ul.menu > li.menu_item:hover > ul.submenu {
+  display: block;
+}
+.col_left {
+  float: left;
+  border-right: 1px solid #000;
+  width: 20%;
+  height: 500px;
+}
+.col_right {
   float: right;
+  border-left: 1px solid #000;
+  width: 20%;
+  height: 500px;
+}
+.col_left h1,
+.col_right h1,
+.col_left p,
+.col_right p {
+  text-align: center;
+}
+.bottom-text {
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
