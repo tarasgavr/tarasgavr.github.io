@@ -1,12 +1,15 @@
 body {
-  background: linear-gradient(to top,#0c739f,#3fc4d2 80%, white 80%, #12cee1 98%, #128aa7 98%);
+  background: linear-gradient(to top,#0c739f,#3fc4d2 83%, white 83%, #12cee1 98%, #128aa7 98%);
 }
 .wrapper {
   margin:             0 auto;
   width:              1080px;
-  height:             96vh;
+  height:             880px;
   background-color:   white;
-  box-shadow:         0 5px 5px 0 rgba(0, 0, 0, 0.53);
+  box-shadow:         0 10px 10px 10px rgba(0, 0, 0, 0.7);
+}
+header a {
+  font-size: 0;
 }
 .holy {
   height: 150px;
@@ -19,9 +22,8 @@ body {
   clear: right;
   float: right;
   padding-right: 40px;
-  padding-top: 18px;
 }
-.flags {
+.flags-pane li {
   display: inline-block;
 }
 .beach {
@@ -31,7 +33,7 @@ body {
 .menu {
   list-style-type: none;
   background-color: black;
-  border: 5px solid hsla( 200, 80%, 30%, 0.1);
+  border: 5px solid hsla( 200, 80%, 30%, 0.5);
   box-shadow: 5px 5px 5px hsla( 200, 0%, 0%, 0.5);
 }
 .menu:after {
@@ -54,6 +56,8 @@ body {
   position: absolute;
   list-style-type: none;
   background-color: black;
+  border: 5px solid hsla( 200, 80%, 30%, 0.5);
+  box-shadow: 10px 10px 10px hsla( 200, 0%, 0%, 0.5);
   width: 150px;
 }
 .submenu_item {
@@ -70,13 +74,13 @@ ul.menu > li.menu_item:hover > ul.submenu {
   float: left;
   border-right: 1px solid #000;
   width: 20%;
-  height: 500px;
+  height: 550px;
 }
 .col_right {
   float: right;
   border-left: 1px solid #000;
   width: 20%;
-  height: 500px;
+  height: 550px;
 }
 .col_left h1,
 .col_right h1,
@@ -87,6 +91,5 @@ ul.menu > li.menu_item:hover > ul.submenu {
 .bottom-text {
   color: white;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
 }
