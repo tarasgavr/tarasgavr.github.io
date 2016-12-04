@@ -1,0 +1,176 @@
+@import "../../fonts/stylesheet.css" screen;
+body {
+  background-image: url("../img/background.jpg");
+  background-size: 100%;
+  font-family: "Helvetica Neue";
+}
+.top-menu {
+  background-color: #085596;
+  height: 40px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.menu-caption-list {
+  border-right: 2px solid #4eabda;
+  position: absolute;
+  left: 470px;
+}
+.menu-caption-list li {
+  display: inline-block;
+}
+.menu-caption-list li a {
+  display: block;
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  color: rgb(96, 181, 237);
+}
+.menu-caption-list li a:hover {
+  background-color: #4eabda;
+  color: white;
+}
+.flag {
+  position: absolute;
+  left: 920px;
+}
+.menu-caption-list2 {
+  position: absolute;
+  left: 950px;
+}
+.menu-caption-list2 li {
+  display: inline-block;
+}
+.menu-caption-list2 li a {
+  display: block;
+  padding: 0 5px;
+  height: 40px;
+  line-height: 40px;
+  color: white;
+}
+.menu-caption-list3 {
+  position: absolute;
+  left: 1060px;
+  background-image: linear-gradient(to top, rgb(50, 128, 199) 0%, rgb(50, 128, 199) 20%, rgb(76, 168, 217) 100%);
+  border-radius: 8px;
+}
+.menu-caption-list3 li {
+  display: inline-block;
+}
+.menu-caption-list3 p {
+  padding: 0 5px;
+  display: inline-block;
+  color: white;
+}
+.menu-caption-list3 li a {
+  display: block;
+  padding: 0 5px;
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  text-decoration: underline;
+}
+.container {
+  position: absolute;
+  top: 270px;
+  left: 370px;
+  width: 520px;
+  height: 550px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.main-caption {
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+  border-bottom: 1px solid white;
+}
+.facebook {
+  margin: 20px auto;
+  width: 250px;
+  background-image: linear-gradient(to top, rgb(55, 80, 147) 0%, rgb(55, 80, 147) 20%, rgb(45, 68, 122) 100%);
+  border-radius: 8px;
+}
+.facebook a {
+  display: inline-block;
+  color: white;
+}
+.letter-f {
+  font-size: 24px;
+  padding: 0 10px;
+  border-right: 1px solid rgba(0, 0, 0, 0.4);
+}
+.login {
+  font-size: 14px;
+  padding: 0 20px;
+}
+.ou {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.ou::before {
+  width: 115px;
+  content: "";
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #000;
+  position: absolute;
+  top: 5px;
+  left: 125px;
+}
+.ou::after {
+  width: 115px;
+  content: "";
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #000;
+  position: absolute;
+  top: 5px;
+  right: 125px;
+}
+.reg-form {
+  margin: 0 auto;
+  width: 300px;
+}
+.field {
+  padding-bottom: 10px;
+}
+.input {
+  width: 276px;
+  height: 35px;
+  background-color: #000;
+  text-indent: 15px;
+  border: 1px solid #000;
+  border-radius: 6px;
+}
+.input:focus {
+  background-image: linear-gradient(to top, #1b5288 0%, #1b5288 100%);
+  box-shadow: 0 1px 0 #4b4b4b, inset 0 2px 5px rgba(29, 26, 22, 0.2), 0 0 9px rgba(47, 123, 197, 0.77), inset 0 0 2px rgba(0, 0, 0, 0.1);
+}
+.checkboxfield {
+  padding-bottom: 20px;
+}
+#label {
+  font-size: 12px;
+  color: white;
+}
+.buttonfield {
+  margin: 0 auto;
+  width: 150px;
+  height: 30px;
+  padding-bottom: 10px;
+}
+#button {
+  background-image: linear-gradient(to top, rgb(50, 128, 199) 0%, rgb(50, 128, 199) 20%, rgb(76, 168, 217) 100%);
+  border: 1px solid #3280c;
+  border-radius: 8px;
+  font-size: 12px;
+  color: white;
+  width: 150px;
+  height: 30px;
+}
+.secure {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+}

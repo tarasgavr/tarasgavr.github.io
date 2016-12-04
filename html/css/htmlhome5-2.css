@@ -1,0 +1,32 @@
+table {
+  border-collapse: collapse;
+}
+td,tr {
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.cell3,
+.cell6,
+.cell13 {
+  background-color: yellow;
+}
+.cell5 {
+  background-color: red;
+}
+.cell10,
+.cell17 {
+  background-color: black;
+}
+.cell15 {
+  background-color: blue;
+}
+.cell16 {
+  height: 100px;
+  width: 100px;
+}
+.cell18 {
+  width: 200px;
+}
