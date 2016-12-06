@@ -3,7 +3,7 @@
 
 
 @font-face {
-    font-family: 'helveticaneueregular';
+    font-family: 'Helvetica Neue';
     src: url('helveticaneue-webfont.woff2') format('woff2'),
          url('helveticaneue-webfont.woff') format('woff');
     font-weight: normal;
@@ -15,10 +15,10 @@
 
 
 @font-face {
-    font-family: 'helveticaneuebold';
+    font-family: 'Helvetica Neue';
     src: url('helveticaneuebd-webfont.woff2') format('woff2'),
          url('helveticaneuebd-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 
 }
