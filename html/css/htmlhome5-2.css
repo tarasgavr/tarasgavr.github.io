@@ -1,7 +1,7 @@
 table {
   border-collapse: collapse;
 }
-td,tr {
+td {
   border-right: 2px solid #000;
   border-bottom: 2px solid #000;
   width: 50px;
@@ -12,6 +12,9 @@ td,tr {
 .cell6,
 .cell13 {
   background-color: yellow;
+}
+.cell4 {
+  height: 100px;
 }
 .cell5 {
   background-color: red;

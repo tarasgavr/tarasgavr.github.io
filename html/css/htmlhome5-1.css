@@ -1,8 +1,11 @@
 @import "../../fonts/stylesheet.css" screen;
 body {
   background-image: url("../img/background.jpg");
-  background-size: 100%;
-  font-family: "helveticaneueregular";
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Helvetica Neue";
 }
 .top-menu {
   background-color: #085596;
@@ -70,9 +73,7 @@ body {
   text-decoration: underline;
 }
 .container {
-  position: absolute;
-  top: 270px;
-  left: 370px;
+  margin: 270px auto;
   width: 520px;
   height: 550px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -131,42 +132,38 @@ body {
   margin: 0 auto;
   width: 300px;
 }
-.field {
-  padding-bottom: 10px;
-}
 .input {
+  display: block;
   width: 276px;
   height: 35px;
   background-color: #000;
   text-indent: 15px;
   border: 1px solid #000;
   border-radius: 6px;
+  margin: 10px 0;
 }
 .input:focus {
   background-image: linear-gradient(to top, #1b5288 0%, #1b5288 100%);
   box-shadow: 0 1px 0 #4b4b4b, inset 0 2px 5px rgba(29, 26, 22, 0.2), 0 0 9px rgba(47, 123, 197, 0.77), inset 0 0 2px rgba(0, 0, 0, 0.1);
-}
-.checkboxfield {
-  padding-bottom: 20px;
+  color: white;
 }
 #label {
+  display: block;
+  padding-right: 5px;
+  margin: 20px 0;
   font-size: 12px;
   color: white;
 }
-.buttonfield {
-  margin: 0 auto;
+#button {
+  display: block;
+  margin: 10px auto;
   width: 150px;
   height: 30px;
-  padding-bottom: 10px;
-}
-#button {
   background-image: linear-gradient(to top, rgb(50, 128, 199) 0%, rgb(50, 128, 199) 20%, rgb(76, 168, 217) 100%);
-  border: 1px solid #3280c;
+  border: 1px solid #3280c7;
   border-radius: 8px;
   font-size: 12px;
   color: white;
-  width: 150px;
-  height: 30px;
 }
 .secure {
   padding-top: 20px;

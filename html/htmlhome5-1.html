@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css\htmlhome5-1.css">
 </head>
 <body>
-  
+
   <div class="top-menu">
     <ul class="menu-caption-list">
       <li><a href="#">Meu_YouBike</a></li>
@@ -25,9 +25,9 @@
     </ul>
     <ul class="menu-caption-list3">
       <p>Ola!</p>
-      <li><a href="3">Entrar</a></li>
+      <li><a href="#">Entrar</a></li>
       <p>ou</p>
-      <li><a href="3">Cadastre-se</a></li>
+      <li><a href="#">Cadastre-se</a></li>
     </ul>
   </div>
   <div class="container">
@@ -39,28 +39,13 @@
     </div>
     <p class="ou">OU</p>
     <form class="reg-form" action="/" method="post">
-      <div class="field">
-        <input type="text" placeholder="First name" class="input">
-      </div>
-      <div class="field">
-        <input type="text" placeholder="Last name" class="input">
-      </div>
-      <div class="field">
-        <input type="email" placeholder="Email address" class="input">
-      </div>
-      <div class="field">
-        <input type="password" placeholder="Choose password" class="input">
-      </div>
-      <div class="field">
-        <input type="password" placeholder="Password confirm" class="input">
-      </div>
-      <div class="checkboxfield">
-        <input type="checkbox" id="checkbox">
-        <label for="checkbox" id="label">Send me Youbike updates and tips</label>
-      </div>
-      <div class="buttonfield">
+        <input type="text" placeholder="First name" class="input" name="fname">
+        <input type="text" placeholder="Last name" class="input" name="lname">
+        <input type="email" placeholder="Email address" class="input" name="">
+        <input type="password" placeholder="Choose password" class="input" name="new-password">
+        <input type="password" placeholder="Password confirm" class="input" name="re-password">
+        <label id="label"><input type="checkbox" id="checkbox">Send me Youbike updates and tips</label>
         <button type="submit" id="button">Create my Account</button>
-      </div>
       <p class="secure">
         By clicking the button above, you agree to the Terms of Service Xiew our Privacy Policy.
       </p>
