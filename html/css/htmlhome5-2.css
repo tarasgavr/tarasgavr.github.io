@@ -1,35 +1,36 @@
 table {
   border-collapse: collapse;
-}
-td {
-  border-right: 2px solid #000;
-  border-bottom: 2px solid #000;
-  width: 50px;
-  height: 50px;
   text-align: center;
 }
-.cell3,
-.cell6,
-.cell13 {
-  background-color: yellow;
+td {
+  width: 50px;
+  height: 50px;
 }
-.cell4 {
+.cell {
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000
+}
+.cellv {
+  visibility: hidden;
+}
+.c7 {
   height: 100px;
 }
-.cell5 {
+.c13 {
+  width: 100px;
+  height: 100px;
+}
+.c5 {
   background-color: red;
 }
-.cell10,
-.cell17 {
+.c3,
+.c6,
+.c13 {
+  background-color: yellow;
+}
+.c10 {
   background-color: black;
 }
-.cell15 {
+.c16 {
   background-color: blue;
-}
-.cell16 {
-  height: 100px;
-  width: 100px;
-}
-.cell18 {
-  width: 200px;
 }
