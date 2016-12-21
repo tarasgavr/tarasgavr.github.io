@@ -1,25 +1,29 @@
    var arr = new Array(5);
    var username;
    var fl;
-   var i;
-   for (i = 0; i<5; i++)
-    {
-     arr[i] = prompt('enter a name');
-    }
-   username = prompt('enter an username');
-   for (i = 0; i<5; i++)
-    {
-     if (arr[i] == username)
+   function fillArray() {
+     var i;
+     for (i = 0; i<5; i++)
      {
-       fl = true;
+       arr[i] = prompt('enter a name');
      }
-     else
+     username = prompt('enter an username');
+     for (i = 0; i<5; i++)
      {
-       fl = false;
+       if (arr[i] == username)
+       {
+         fl = true;
+       }
+       else
+       {
+         fl = false;
+       }
      }
-    }
-    if (fl) {
-      alert(username + ', you entered successful');
-    } else {
-      alert('Error! The name ' + username + ' does not exist');
-    }
+     if (fl) {
+       alert(username + ', you entered successful');
+     } else {
+       alert('Error! The name ' + username + ' does not exist');
+     }
+     return this;
+   }
+fillArray();
