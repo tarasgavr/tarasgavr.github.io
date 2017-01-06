@@ -21,20 +21,20 @@
           </span>
         </span>
         <div class="entrance-form">
-          <form action="#">
-            <img src="img/userpic.jpg" alt="user" id="signhuman">
+          <form action="#" method="post">
+            <div id="signhuman"></div>
             <input type="text" id="login" placeholder="логин">
             <input type="password" id="password" placeholder="пароль">
-            <label class="label">вход</label>
+            <input type="submit" value="вход" class="enter">
             <div class="vline"></div>
-            <label class="label">регистрация</label>
-            <a href="#">забыли пароль?</a>
+            <a href="#" class="reg">регистрация</a>
+            <a href="#" class="remember">забыли пароль?</a>
           </form>
         </div>
         <nav>
-          <img src="img/homebackpic.jpg" alt="home" id="home">
-          <img src="img/sitemappic.jpg" alt="sitemap" id="sitemap">
-          <span id="letter">&#9993;</span>
+          <a href="#" id="home"></a>
+          <a href="#" id="sitemap"></a>
+          <a href="#" id="letter">&#9993;</a>
         </nav>
       </section>
       <img src="img/logo-tires.jpg" alt="logo" id="logo">
@@ -57,11 +57,11 @@
           </li>
         </ul>
         <span class="basket">
-          <img src="img/trolley.jpg" alt="basket" class="basket-sign"></img>
+          <img src="img/trolley.png" alt="basket" class="basket-sign"></img>
           <span class="basket-goodstext">товаров:</span>
           <span class="basket-goodsamount">0</span>
           <span class="basket-moneytext">на сумму:</span>
-          <span class="basket-moneyamount">0.00</span>
+          <span class="basket-moneyamount">0.00 грн.</span>
         </span>
       </section>
     </header>
@@ -83,7 +83,10 @@
             <span class="caption-text">каталог продукции:</span>
           </div>
           <ul class="leftside">
-            <div class="asidemenu">ШИНЫ</div>
+            <div class="menubox">
+              <div class="donut"></div>
+              <span class="asidemenu-title">ШИНЫ</span>
+            </div>
             <li class="asidemenu_item">
               <a href="" class="asidemenu_lnk">Наименование 1</a>
             </li>
@@ -98,32 +101,38 @@
             </li>
           </ul>
           <ul class="leftside">
-            <div class="asidemenu">ДИСКИ</div>
-            <li class="asidemenu_item">
+            <div class="menubox chmb">
+              <div class="donut"></div>
+              <span class="asidemenu-title">ДИСКИ</span>
+            </div>
+            <li class="asidemenu_item chmi">
               <a href="" class="asidemenu_lnk">Наименование 1</a>
             </li>
-            <li class="asidemenu_item">
+            <li class="asidemenu_item chmi">
               <a href="" class="asidemenu_lnk">Наименование 2</a>
             </li>
-            <li class="asidemenu_item">
+            <li class="asidemenu_item chmi">
               <a href="" class="asidemenu_lnk">Наименование 3</a>
             </li>
-            <li class="asidemenu_item">
+            <li class="asidemenu_item chmi">
               <a href="" class="asidemenu_lnk">Наименование 4</a>
             </li>
           </ul>
           <ul class="leftside">
-            <div class="asidemenu">БОЛТЫ</div>
-            <li class="asidemenu_item">
+            <div class="menubox chmb2">
+              <div class="donut"></div>
+              <span class="asidemenu-title">БОЛТЫ</span>
+            </div>
+            <li class="asidemenu_item chmi2">
               <a href="" class="asidemenu_lnk">Наименование 1</a>
             </li>
-            <li class="asidemenu_item">
+            <li class="asidemenu_item chmi2">
               <a href="" class="asidemenu_lnk">Наименование 2</a>
             </li>
-            <li class="asidemenu_item">
+            <li class="asidemenu_item chmi2">
               <a href="" class="asidemenu_lnk">Наименование 3</a>
             </li>
-            <li class="asidemenu_item">
+            <li class="asidemenu_item chmi2">
               <a href="" class="asidemenu_lnk">Наименование 4</a>
             </li>
           </ul>
@@ -131,116 +140,125 @@
         <div class="main-container">
           <div class="block">
             <figure>
-              <h1>goodyear</h1>
-              <h4>ultra grip extreme</h4>
-              <div class="tires">
-                <img src="img/codeyear-tires.jpg" alt="goodyear">
+              <h1 class="goodyear-title">goodyear</h1>
+              <h4 class="goodyear-text">ultra grip extreme</h4>
+              <div class="gdtires1">
+                <img src="img/codeyear-tires.jpg" alt="goodyear" class="goodyear-tires1">
               </div>
-              <figcaption>90.00</figcaption>
+              <figcaption class="goodyear-caption">90.00</figcaption>
             </figure>
             <figure>
-              <h1>nokian</h1>
-              <h4>hakkapeliitta r</h4>
-              <div class="tires">
-                <img src="img/nokian-tires.jpg" alt="nokian">
+              <h1 class="nokian-title">nokian</h1>
+              <h4 class="nokian-text">hakkapeliitta r</h4>
+              <div class="ntires1">
+                <img src="img/nokian-tires.jpg" alt="nokian" class="nokian-tires1">
               </div>
-              <figcaption>115.00</figcaption>
+              <figcaption class="nokian-caption">115.00</figcaption>
             </figure>
             <figure>
-              <h1>hankook</h1>
-              <h4>k 708 155/65 r14</h4>
-              <div class="tires">
-                <img src="img/hankook-tires.jpg" alt="hankook">
+              <h1 class="hankook-title">hankook</h1>
+              <h4 class="hankook-text">k 708 155/65 r14</h4>
+              <div class="htires1">
+                <img src="img/hankook-tires.jpg" alt="hankook" class="hankook-tires1">
               </div>
-              <figcaption>393.00</figcaption>
-            </figure>
-          </div>
-          <div class="block">
-            <figure>
-              <h1>goodyear</h1>
-              <h4>ultra grip extreme</h4>
-              <div class="tires">
-                <img src="img/codeyear-tires.jpg" alt="goodyear">
-              </div>
-              <figcaption>90.00</figcaption>
-            </figure>
-            <figure>
-              <h1>nokian</h1>
-              <h4>hakkapeliitta r</h4>
-              <div class="tires">
-
-                <img src="img/nokian-tires.jpg" alt="nokian">
-              </div>
-              <figcaption>115.00</figcaption>
-            </figure>
-            <figure>
-              <h1>hankook</h1>
-              <h4>k 708 155/65 r14</h4>
-              <div class="tires">
-                <img src="img/hankook-tires.jpg" alt="hankook">
-              </div>
-              <figcaption>393.00</figcaption>
+              <figcaption class="hankook-caption">393.00</figcaption>
             </figure>
           </div>
           <div class="block">
             <figure>
-              <h1>goodyear</h1>
-              <h4>ultra grip extreme</h4>
-              <div class="tires">
-                <img src="img/codeyear-tires.jpg" alt="goodyear">
+              <h1 class="goodyear-title">goodyear</h1>
+              <h4 class="goodyear-text">ultra grip extreme</h4>
+              <div class="gdtires2">
+                <img src="img/codeyear-tires.jpg" alt="goodyear" class="goodyear-tires2">
               </div>
-              <figcaption>90.00</figcaption>
+              <figcaption class="goodyear-caption">90.00</figcaption>
             </figure>
             <figure>
-              <h1>nokian</h1>
-              <h4>hakkapeliitta r</h4>
-              <div class="tires">
-                <img src="img/nokian-tires.jpg" alt="nokian">
+              <h1 class="nokian-title">nokian</h1>
+              <h4 class="nokian-text">hakkapeliitta r</h4>
+              <div class="ntires2">
+                <img src="img/nokian-tires.jpg" alt="nokian" class="nokian-tires2">
               </div>
-              <figcaption>115.00</figcaption>
+              <figcaption class="nokian-caption">115.00</figcaption>
             </figure>
             <figure>
-              <h1>hankook</h1>
-              <h4>k 708 155/65 r14</h4>
-              <div class="tires">
-                <img src="img/hankook-tires.jpg" alt="hankook">
+              <h1 class="hankook-title">hankook</h1>
+              <h4 class="hankook-text">k 708 155/65 r14</h4>
+              <div class="htires2">
+                <img src="img/hankook-tires.jpg" alt="hankook" class="hankook-tires2">
               </div>
-              <figcaption>393.00</figcaption>
+              <figcaption class="hankook-caption">393.00</figcaption>
+            </figure>
+          </div>
+          <div class="block">
+            <figure>
+              <h1 class="goodyear-title">goodyear</h1>
+              <h4 class="goodyear-text">ultra grip extreme</h4>
+              <div class="gdtires3">
+                <img src="img/codeyear-tires.jpg" alt="goodyear" class="goodyear-tires3">
+              </div>
+              <figcaption class="goodyear-caption">90.00</figcaption>
+            </figure>
+            <figure>
+              <h1 class="nokian-title">nokian</h1>
+              <h4 class="nokian-text">hakkapeliitta r</h4>
+              <div class="ntires3">
+                <img src="img/nokian-tires.jpg" alt="nokian" class="nokian-tires3">
+              </div>
+              <figcaption class="nokian-caption">115.00</figcaption>
+            </figure>
+            <figure>
+              <h1 class="hankook-title">hankook</h1>
+              <h4 class="hankook-text">k 708 155/65 r14</h4>
+              <div class=" htires3">
+                <img src="img/hankook-tires.jpg" alt="hankook" class="hankook-tires3">
+              </div>
+              <figcaption class="hankook-caption">393.00</figcaption>
             </figure>
           </div>
         </div>
         <aside class="rightcol">
-          <div class="caption">
+          <div class="caption2">
             <span class="signdoc-bg">
               <img class="signdoc" src="img/document.png" alt="document">
             </span>
-            <span class="caption-text">бренды:</span>
+            <span class="caption-text2">бренды:</span>
           </div>
-          <ul class="rightside">
-            <div class="asidemenu">ШИНЫ</div>
-            <li class="asidemenu_item">
-              <a href="" class="asidemenu_lnk">бренд 1</a>
-            </li>
-            <li class="asidemenu_item">
-              <a href="" class="asidemenu_lnk">бренд 2</a>
-            </li>
-            <li class="asidemenu_item">
-              <a href="" class="asidemenu_lnk">бренд 3</a>
-            </li>
-          </ul>
-          <ul class="rightside">
-            <div class="asidemenu">ДИСКИ</div>
-            <li class="asidemenu_item">
-              <a href="" class="asidemenu_lnk">бренд 1</a>
-            </li>
-            <li class="asidemenu_item">
-              <a href="" class="asidemenu_lnk">бренд 2</a>
-            </li>
-            <li class="asidemenu_item">
-              <a href="" class="asidemenu_lnk">бренд 3</a>
-            </li>
-          </ul>
-          <div class="button">Выбрать</div>
+          <form class="brends" action="#" method="post">
+            <div class="menubox brntires">
+              <div class="donut"></div>
+              <span class="asidemenu-title">ШИНЫ</span>
+            </div>
+              <label class="brend">
+                <input type="checkbox" class="checkbox" id="tirebrend1">
+                бренд 1
+              </label>
+              <label class="brend">
+                <input type="checkbox" class="checkbox" id="tirebrend2">
+                бренд 2
+              </label>
+              <label class="brend">
+                <input type="checkbox" class="checkbox" id="tirebrend3">
+                бренд 3
+              </label>
+            <div class="menubox brndiscs">
+              <div class="donut"></div>
+              <span class="asidemenu-title">ДИСКИ</span>
+            </div>
+              <label class="brend">
+                <input type="checkbox" class="checkbox" id="discbrend1">
+                бренд 1
+              </label>
+              <label class="brend">
+                <input type="checkbox" class="checkbox" id="discbrend2">
+                бренд 2
+              </label>
+              <label class="brend">
+                <input type="checkbox" class="checkbox" id="discbrend3">
+                бренд 3
+              </label>
+            <input type="submit" value="Выбрать" class="button">
+          </form>
         </aside>
       </section>
     </main>
