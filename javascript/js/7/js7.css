@@ -1,0 +1,39 @@
+.wrapper {
+  margin: 100px auto;
+  padding: 0 50px;
+  width: 485px;
+  height: 400px;
+  border: 1px solid #000;
+}
+.panes {
+  display: inline-block;
+  height: 40px;
+  width: 120px;
+  background-color: #ddf;
+  color: #fff;
+  border: 2px solid #03d;
+}
+.link {
+  display: block;
+  color: white;
+  vertical-align: middle;
+  line-height: 40px;
+  text-align: center;
+}
+.text {
+  width: 475px;
+  height: 300px;
+  border: 1px solid #000;
+}
+#text0 {
+  background-color: #f00;
+  display: block;
+}
+#text1 {
+  background-color: #0f0;
+  display: none;
+}
+#text2 {
+  background-color: #00f;
+  display: none;
+}

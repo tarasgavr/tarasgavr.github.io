@@ -60,7 +60,8 @@ function resetCount() {
   ms0 = 0; s0 = 0; m0 = 0; h0 = 0; splitcount = 0;
   timer.innerHTML = '0'+h0+':0'+m0+':0'+s0+':00'+ms0;
 }
-
+console.log('01:08:45:456 = ' + convertTimeDown(convertTimeUp(1,8,45,456)));
+console.log('01:08:45:456 = ' + convertTimeUp(1,8,45,456));
 start.addEventListener('click',changeButton);
 split.addEventListener('click',splitTime);
 reset.addEventListener('click',resetCount);

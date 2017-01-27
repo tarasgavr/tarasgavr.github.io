@@ -79,7 +79,7 @@ function convertTimeDown(sum) {
         res = '00:' + Math.floor(res2) + ':' + Math.floor(res3 / 1000) + ':' + sum - Math.floor(res2) * 60000 - Math.floor(res3 / 1000) * 1000;
       } else {
         res4 = sum / 3600000; res5 = sum - Math.floor(res4) * 3600000; res6 = res5 - Math.floor(res5 / 60000) * 60000;
-        res = Math.floor(res4) + ':' + Math.floor(res5 / 60000) + ':' + Math.floor(res6 / 1000) + ':' + res6 - Math.floor(res6 / 1000) * 1000;
+        res = Math.floor(res4) + ':' + Math.floor(res5 / 60000) + ':' + Math.floor(res6 / 1000) + ':' + sum - Math.floor(res4) * 3600000 - Math.floor(res5) * 60000 - Math.floor(res6 / 1000) * 1000;
       }
     }
   }

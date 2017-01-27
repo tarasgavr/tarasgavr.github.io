@@ -1,0 +1,47 @@
+.wrapper {
+  margin: 100px auto;
+  padding: 0 50px;
+  width: 500px;
+  height: 400px;
+  border: 1px solid #000;
+}
+.text {
+  margin: 10px 0;
+  width: 263px;
+  height: 30px;
+  font-size: 20px;
+  display: inline-block;
+}
+#fname {
+  height: 28px;
+}
+#lname {
+  height: 28px;
+}
+#addr {
+  height: 28px;
+  margin-left: 15px;
+}
+.info {
+  display: block;
+  font-size: 20px;
+  margin: 10px;
+}
+.help0 {
+  display: inline-block;
+  font-size: 20px;
+  background-color: #0ff;
+}
+.help1 {
+  display: inline-block;
+  font-size: 20px;
+  background-color: #0ff;
+}
+.help2 {
+  display: inline-block;
+  font-size: 20px;
+  background-color: #0ff;
+}
+.visible {
+  visibility: hidden;
+}
