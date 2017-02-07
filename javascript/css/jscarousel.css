@@ -1,0 +1,31 @@
+.jcarousel-wrapper {
+  margin: 20px auto;
+  position: relative;
+  border: 10px solid #fff;
+  width: 50px;
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px #999;
+}
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+}
+.jcarousel li {
+    float: left;
+}
+.jcarousel-prev {
+  position: relative;
+  top: -35px;
+  left: -30px;
+}
+.jcarousel-next {
+  position: relative;
+  top: -35px;
+  left: 50px;
+}

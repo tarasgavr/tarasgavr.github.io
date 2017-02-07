@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>hometask9-10</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/js9-10.css">
+  <link rel="stylesheet" href="css/jscarousel.css">
+  <link rel="stylesheet" href="css/jsselect.css">
+  <link rel="stylesheet" href="css/jscheckbox.css">
+  <link rel="stylesheet" href="css/dropdownmenu.css">
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/jCarousel.js"></script>
+  <script src="js/9/jscarousel.js"></script>
+  <script src="js/jquery.selectbox.js"></script>
+  <script src="js/9/jsselect.js"></script>
+  <script src="js/10/jscheckbox.js"></script>
+  <script src="js/10/dropdownmenu.js"></script>
+ </head>
+ <body>
+   <div class="wrapper">
+     <h1>Карусель</h1>
+     <div class="jcarousel-wrapper">
+       <div class="jcarousel">
+         <ul class="jcarousel-list">
+           <li class="jcarousel-item">
+             <img src="../html/img/flag1.jpg" alt="Флаг Индии">
+           </li>
+           <li class="jcarousel-item">
+             <img src="../html/img/flag2.jpg" alt="Флаг Непала">
+           </li>
+           <li class="jcarousel-item">
+             <img src="../html/img/flag3.jpg" alt="Флаг Тибета">
+           </li>
+           <li class="jcarousel-item">
+             <img src="../html/img/flag4.jpg" alt="Флаг Бутана">
+           </li>
+           <li class="jcarousel-item">
+             <img src="../html/img/flag5.jpg" alt="Флаг Шри-Ланки">
+           </li>
+           <li class="jcarousel-item">
+             <img src="../html/img/flag6.jpg" alt="Флаг Мальдив">
+           </li>
+         </ul>
+       </div>
+       <a href="#" class="jcarousel-prev">&lArr;</a>
+       <a href="#" class="jcarousel-next">&rArr;</a>
+     </div>
+     <h1>Селект</h1>
+     <div class="select-wrapper">
+       <select id="default-usage-select">
+         <option value="--">Выберите, откуда вы</option>
+         <option value="01">Австралия</option>
+         <option value="02">Австрия</option>
+         <option value="03">Вануату</option>
+         <option value="04">Ватикан</option>
+         <option value="05">Венесуела</option>
+         <option value="06">Джибутти</option>
+         <option value="07">Замбези</option>
+         <option value="08">Замбия</option>
+         <option value="09">Зимбабве</option>
+         <option value="10">Индия</option>
+         <option value="11">Исландия</option>
+         <option value="12">Испания</option>
+         <option value="13">Италия</option>
+         <option value="14">Канада</option>
+         <option value="15">Катар</option>
+         <option value="16">Мадагаскар</option>
+         <option value="17">Мексика</option>
+         <option value="18">Монголия</option>
+       </select>
+     </div>
+     <h1>Чекбоксы</h1>
+     <div class="checkbox-wrapper">
+       <h4>Выберите, откуда вы</h4>
+       <ul class="jquery-checkbox-list">
+         C помощью JQUERY-чекбоксов
+         <li>Венесуела
+           <span class="niceCheck" id="checkbox1">
+             <input type="checkbox" id="ch1">
+           </span>
+         </li>
+         <li>Испания
+           <span class="niceCheck" id="checkbox2">
+             <input type="checkbox" id="ch2">
+           </span>
+         </li>
+         <li>Мадагаскар
+           <span class="niceCheck" id="checkbox3">
+             <input type="checkbox" id="ch3">
+           </span>
+         </li>
+       </ul>
+       <ul class="css-checkbox-list">
+         C помощью CSS-чекбоксов
+         <li><label for="ch4" class="la1">Вануату</label>
+          <input type="checkbox" id="ch4">
+         </li>
+         <li><label for="ch5" class="la2">Джибутти</label>
+          <input type="checkbox" id="ch5">
+         </li>
+         <li><label for="ch6" class="la3">Монголия</label>
+          <input type="checkbox" id="ch6">
+         </li>
+       </ul>
+     </div>
+     <h1>Выпадающее меню</h1>
+     <div class="dropdownmenu-wrapper">
+       <ul class="menu">
+         <li class="menuitem">
+           <a href="#" class="menulink">geo1</a>
+         </li>
+         <li class="menuitem">
+           <a href="#" class="menulink">geo2</a>
+         </li>
+         <li class="menuitem">
+           <a href="#" class="menulink" id="dropdown">geo3&#9660;</a>
+           <ul class="first-level-submenu">
+             <li class="first-level-submenuitem">
+               <a href="#" class="first-level-submenulink">geo3.1</a>
+             </li>
+             <li class="first-level-submenuitem">
+               <a href="#" class="first-level-submenulink">geo3.2</a>
+             </li>
+             <li class="first-level-submenuitem">
+               <a href="#" class="first-level-submenulink">geo3.3</a>
+             </li>
+             <li class="first-level-submenuitem">
+               <a href="#" class="first-level-submenulink" id="dropright1">geo3.4&#9658;</a>
+               <ul class="second-level-submenu">
+                 <li class="second-level-submenuitem">
+                   <a href="#" class="second-level-submenulink">geo3.4.1</a>
+                 </li>
+                 <li class="second-level-submenuitem">
+                   <a href="#" class="second-level-submenulink" id="dropright2">geo3.4.2&#9658;</a>
+                   <ul class="third-level-submenu">
+                     <li class="third-level-submenuitem">
+                       <a href="#" class="third-level-submenulink">geo3.4.2.1</a>
+                     </li>
+                     <li class="third-level-submenuitem">
+                       <a href="#" class="third-level-submenulink">geo3.4.2.2</a>
+                     </li>
+                     <li class="third-level-submenuitem">
+                       <a href="#" class="third-level-submenulink">geo3.4.2.3</a>
+                     </li>
+                     <li class="third-level-submenuitem">
+                       <a href="#" class="third-level-submenulink">geo3.4.2.4</a>
+                     </li>
+                     <li class="third-level-submenuitem">
+                       <a href="#" class="third-level-submenulink">geo3.4.2.5</a>
+                     </li>
+                   </ul>
+                 </li>
+                 <li class="second-level-submenuitem">
+                   <a href="#" class="second-level-submenulink">geo3.4.3</a>
+                 </li>
+                 <li class="second-level-submenuitem">
+                   <a href="#" class="second-level-submenulink">geo3.4.4</a>
+                 </li>
+                 <li class="second-level-submenuitem">
+                   <a href="#" class="second-level-submenulink">geo3.4.5</a>
+                 </li>
+               </ul>
+             </li>
+             <li class="first-level-submenuitem">
+               <a href="#" class="first-level-submenulink">geo3.5</a>
+             </li>
+           </ul>
+         </li>
+         <li class="menuitem">
+           <a href="#" class="menulink">geo4</a>
+         </li>
+         <li class="menuitem">
+           <a href="#" class="menulink">geo5</a>
+         </li>
+       </ul>
+     </div>
+   </div>
+ </body>
+</html>

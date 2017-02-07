@@ -1,0 +1,74 @@
+.dropdownmenu-wrapper {
+  margin: 15px auto;
+  height: 48px;
+  background-color: #e0c;
+}
+.menu {
+  margin-left: 5px;
+  font-size: 18px;
+  height: 48px;
+  list-style-type: none;
+}
+.menuitem {
+  position: relative;
+  float: left;
+}
+.menulink {
+  display: block;
+  padding: 13px 25px;
+  color: #fff;
+}
+.first-level-submenu {
+  display: none;
+  width: 95px;
+  height: 210px;
+  padding-left: 5px;
+  list-style-type: none;
+  background-color: #e0c;
+}
+.first-level-submenuitem {
+}
+.first-level-submenulink {
+  display: block;
+  padding: 10px 0;
+  color: #fff;
+}
+.second-level-submenu {
+  display: none;
+  opacity: 0;
+  position: relative;
+  left: 180px;
+  top: 0px;
+  width: 150px;
+  margin-left: 5px;
+  list-style-type: none;
+  background-color: #e0c;
+  font-size: 18px;
+}
+.second-level-submenuitem {
+}
+.second-level-submenulink {
+  font-size: 18px;
+  display: block;
+  padding: 10px 25px;
+  color: #fff;
+}
+.third-level-submenu {
+  display: none;
+  opacity: 0;
+  position: relative;
+  top: -35px;
+  left: 235px;
+  width: 150px;
+  margin-left: 5px;
+  list-style-type: none;
+  background-color: #e0c;
+}
+.third-level-submenuitem {
+}
+.third-level-submenulink {
+  font-size: 18px;
+  display: block;
+  padding: 10px 25px;
+  color: #fff;
+}
