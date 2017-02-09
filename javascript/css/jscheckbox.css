@@ -61,31 +61,31 @@ label {
   cursor: pointer;
 }
 input[type=checkbox]:checked + .la1:after {
-	background-position: 0 17px
+	background-position: 0 0;
 }
 .la1:hover:after {
-	background-position: 0 17px;
+	background-position: 0 -34px;
 }
 input[type=checkbox]:checked + .la1:hover:after {
-	background-position: 0 34px;
+	background-position: 0 -51px;
 }
 input[type=checkbox]:checked + .la2:after {
-	background-position: 0 17px;
+	background-position: 0 0;
 }
 .la2:hover:after {
-	background-position: 0 -17px;
+	background-position: 0 -51px;
 }
 input[type=checkbox]:checked + .la2:hover:after {
-	background-position: 0 34px;
+	background-position: 0 -34px;
 }
-input[type=checkbox] + .la3:after {
-	background-position: 0 17px;
+input[type=checkbox]:checked + .la3:after {
+	background-position: 0 0;
 }
 .la3:hover:after {
-	background-position: 0 -17px;
+	background-position: 0 -51px;
 }
 input[type=checkbox]:checked + .la3:hover:after {
-	background-position: 0 34px;
+	background-position: 0 -34px;
 }
 .la1:after {
   content: " ";
@@ -96,6 +96,7 @@ input[type=checkbox]:checked + .la3:hover:after {
   top: 3px;
   margin-left: 15px;
   background: url('../img/checkbox1-css.png');
+  background-position: 0 -17px;
 }
 .la2:after {
   content: " ";
@@ -106,6 +107,7 @@ input[type=checkbox]:checked + .la3:hover:after {
   top: 3px;
   margin-left: 15px;
   background: url('../img/checkbox2-css.png');
+  background-position: 0 -17px;
 }
 .la3:after {
   content: " ";
@@ -116,4 +118,5 @@ input[type=checkbox]:checked + .la3:hover:after {
   top: 3px;
   margin-left: 15px;
   background: url('../img/checkbox3-css.png');
+  background-position: 0 -17px;
 }
