@@ -1,0 +1,39 @@
+.wrapper {
+  margin: 0 auto;
+  width: 600px;
+  height: 800px;
+  background-color: #0a0;
+  border: 10px solid #000;
+  box-shadow: 2px 5px 10px #999;
+}
+.myCarousel-wrapper {
+  margin: 50% auto;
+  width: 180px;
+  height: 80px;
+  background-color: #fff;
+  overflow: hidden;
+}
+.myCarousel-menu {
+  width: 20000em;
+  list-style: none;
+  position: relative;
+}
+.myCarousel-item {
+  float: left;
+  padding-left: 10px;
+}
+.myCarousel-item img {
+  display: block;
+  margin: 0 auto;
+  max-width: 50px;
+}
+.myCarousel-button-left,
+.myCarousel-button-right {
+  position: relative;
+  width: 60px;
+  height: 20px;
+  background-color: #999;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+}
