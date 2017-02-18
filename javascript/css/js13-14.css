@@ -1,0 +1,36 @@
+.wrapper {
+  margin: 0 auto;
+  padding: 0 50px;
+  height: 600px;
+  width: 800px;
+}
+.title {
+  font-family: Tahoma, sans-serif;
+  font-size: 22px;
+  text-align: center;
+  color: #000;
+}
+ol li {
+  padding-top: 10px;
+}
+label {
+  display: block;
+  width: 164px;
+  padding-top: 10px;
+}
+input[type=checkbox] {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  background-color: #cbe2f4;
+  border: 2px solid #637079;
+}
+input[type=submit] {
+  display: block;
+  margin: 0 auto;
+  height: 50px;
+  width: 295px;
+  font-size: 18px;
+  background-color: #cbe2f4;
+  border: 2px solid #637079;
+}
