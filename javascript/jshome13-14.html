@@ -5,9 +5,14 @@
   <title>hometask13-14</title>
   <link rel="stylesheet" href="css/js13-14.css">
   <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/template.js"></script>
+  <script src="js/jshome13-14.js"></script>
  </head>
  <body>
-
-   <script src="js/jshome13-14.js"></script>
+   <script type="text/html" id="home">
+     <% for ( var i = 0; i < returnObj.length; i++ ) { %>
+     <%= returnObj[i] %>
+     <% } %>
+   </script>
  </body>
 </html>
