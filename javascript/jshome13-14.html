@@ -6,13 +6,19 @@
   <link rel="stylesheet" href="css/js13-14.css">
   <script src="js/jquery-3.1.1.min.js"></script>
   <script src="js/template.js"></script>
-  <script src="js/jshome13-14.js"></script>
+  <script src="js/13/jshome13-14.js"></script>
+  <script src="js/13/action.js"></script>
  </head>
- <body>
+  <body>
    <script type="text/html" id="home">
-     <% for ( var i = 0; i < returnObj.length; i++ ) { %>
-     <%= returnObj[i] %>
+     <% for ( var i = 0; i < homework.length; i++ ) { %>
+     <%= homework[i].text %>
      <% } %>
    </script>
- </body>
+   <div id="modal_form">
+     <span id="modal_close">X</span>
+     <p id="test_result"></p>
+   </div>
+   <div id="overlay"></div>
+  </body>
 </html>
