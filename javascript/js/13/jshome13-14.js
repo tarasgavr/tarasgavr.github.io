@@ -7,7 +7,7 @@ $(function() {
   for (var i = 1; i < 4; i++) {
     localStorage.setItem("list" + i, '<li>Вопрос №' + i);
     for (var j = 1; j < 4; j++) {
-      localStorage.setItem("checkbox" + i + j, '<label><input type="checkbox" id="variant' + i + j + '">');
+      localStorage.setItem("checkbox" + i + j, '<label id="variant' + i + j + '"><input type="checkbox">');
       localStorage.setItem("label" + i + j, 'Вариант ответа №' + j +'</label></li>');
       }
     }
@@ -45,8 +45,6 @@ $(function() {
       ]
   }
 
-  var returnObj = localStorage.getItem("wrapper");
-  console.log(returnObj);
   var result = tmpl(hw, htmlObj);
   $('body').append(result);
 });
