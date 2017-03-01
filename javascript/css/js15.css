@@ -1,0 +1,47 @@
+.search_form {
+  margin: 100px auto;
+  width: 300px;
+  height: 100px;
+  background-color: #555;
+}
+.query_field {
+  display: block;
+  width: 250px;
+  margin: 0 50px 10px 25px;
+  font-size: 15px;
+}
+.search_button {
+  display: block;
+  width: 70px;
+  height: 30px;
+  margin: 0 auto;
+  font-size: 15px;
+  text-align: center;
+}
+.form_title {
+  margin-top: 10px;
+  color: #0ec;
+  text-align: center;
+}
+ol li {
+  margin: 20px 0 0 50px;
+}
+ol li a {
+  color: #00f;
+  font-size: 15px;
+}
+ol li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.div-links {
+  width: 45%;
+  float: left;
+}
+.div-images {
+  width: 45%;
+  float: right;
+}
+img {
+  display: block;
+}
