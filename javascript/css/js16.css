@@ -1,1 +1,19 @@
-s
+.wrapper {
+  margin: 100px auto;
+  width: 300px;
+}
+.Human {
+  background-color: #f00;
+  font-weight: bold;
+  list-style-type: none;
+}
+.Student {
+  background-color: #0f0;
+  font-style: oblique;
+  list-style-type: none;
+}
+.Worker {
+  background-color: #00f;
+  font-weight: bold;
+  list-style-type: none;
+}

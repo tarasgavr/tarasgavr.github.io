@@ -17,7 +17,7 @@ $(function () {
             var list1 = document.createElement('li');
             $('#list-images').append(list1);
             var im = document.createElement('img');
-            im.setAttribute('src',hit.previewUrl);
+            im.setAttribute('src',hit.previewURL);
             list1.append(im);
         });
       } else {
