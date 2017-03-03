@@ -2,11 +2,11 @@ $(function () {
 
   $('.search_button').click(function (event) {
     event.preventDefault();
+    $('li').detach();
     var query = $('.query_field').val();
     var API_KEY = '4681253-a7427a238f577652160f85a4e';
     var URL = "https://pixabay.com/api/?key="+API_KEY+"&q="+query;
-    $.getJSON(URL, function(data){
-      console.log(data.hits[0]);
+    $.getJSON(URL, function(data) {
       if (parseInt(data.totalHits) > 0) {
         $.each(data.hits, function(i, hit){
             var list = document.createElement('li');

@@ -1,40 +1,42 @@
 $(function () {
 
-  function Human() {
-    this.name = 'Marco';
-    this.age = 23;
-    this.sex = 'male';
-    this.weight = 65;
-    this.height = 175;
+  function Human(name, age, sex, height, weight) {
+    this.name = name || 'Marco';
+    this.age = age || 23;
+    this.sex = sex || 'male';
+    this.height = height || 175;
+    this.weight = weight || 65;
   }
 
-  var newHuman = new Human();
+  var newHuman = new Human('Fil', 15, 'male', 150, 58);
   for (var field in newHuman) {
     var list = document.createElement('li');
     list.innerHTML = field + ' :: ' + newHuman[field];
     $('.Human').append(list);
   }
-  function Student() {
-    this.studyPlace = 'University of California';
-    this.scholarShip = 200;
+  function Student(name, age, sex, height, weight, studyPlace, scholarShip) {
+    Human.call(this, name, age, sex, height, weight);
+    this.studyPlace = studyPlace || 'University of California';
+    this.scholarShip = scholarShip || 200;
     this.watchSerials = function () {
 
     }
   }
-  function Worker() {
-    this.workPlace = 'National museum';
-    this.salary = 350;
+  function Worker(name, age, sex, height, weight, workPlace, salary) {
+    Human.call(this, name, age, sex, height, weight);
+    this.workPlace = workPlace || 'National museum';
+    this.salary = salary || 350;
     this.work = function () {
 
     }
   }
-  Student.prototype = newHuman;
-  Worker.prototype = newHuman;
+  Student.prototype = new Human();
+  Worker.prototype = new Human();
 
-  var oneStudent = new Student();
-  var myStudent = new Student();
-  var oneWorker = new Worker();
-  var myWorker = new Worker();
+  var oneStudent = new Student('Alex', 19, 'male', 180, 70, 'PTU', 700);
+  var myStudent = new Student('Sophie', 21, 'female', 163, 58, 'Yale', 950);
+  var oneWorker = new Worker('Michelle', 42, 'female', 172, 63, 'MAN', 1000);
+  var myWorker = new Worker('Nicola', 54, 'male', 180, 98, 'ROCKNES', 1500);
 
   for (var field in oneStudent) {
     var list = document.createElement('li');
