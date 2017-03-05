@@ -6,21 +6,35 @@ module.exports = function(grunt) {
           separator: ';',
         },
         dist: {
-          src: ['src/*.js'],
-          dest: 'dest/demo.js',
+          files : [
+            {src : ['javascript/js/6/*.js'], dest : 'dest/grunt.js'}
+          ]
         },
       },
       uglify: {
         dist: {
-          src: ['dest/demo.js'],
-          dest: 'dest/demo.js',
+          files: [
+            {src : ['dest/grunt.js'], dest : 'dest/grunt.min.js'}
+          ]
+        }
+      },
+      cssmin: {
+        options: {
+          mergeIntoShorthands: false,
+          roundingPrecision: -1
+        },
+        target: {
+          files: [
+            {src : ['dest/grunt.css'], dest : 'dest/grunt.min.css'}
+          ]
         }
       }
   });
 
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
 
-  grunt.registerTask('default', ['concat','uglify']);
+  grunt.registerTask('default', ['concat','uglify','cssmin']);
 
 };

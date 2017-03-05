@@ -197,6 +197,8 @@
   "devDependencies": {
     "deep-equal": "~1.0.1",
     "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-uglify": "^2.2.0",
     "marked": "~0.3.6",
     "marked-man": "~0.2.0",
