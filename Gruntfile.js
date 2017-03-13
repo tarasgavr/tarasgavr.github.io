@@ -7,8 +7,8 @@ module.exports = function(grunt) {
         },
         dist: {
           files : [
-            {src : ['javascript/css/js6.css','javascript/css/reset.css'], dest : 'dest/grunt.css'},
-            {src : ['javascript/js/6/*.js'], dest : 'dest/grunt.js'}
+            {src : ['javascript/css/js11.css','javascript/css/reset.css'], dest : 'dest/grunt.css'},
+            {src : ['javascript/js/jquery-3.1.1.min.js','javascript/js/11/*.js'], dest : 'dest/grunt.js'}
           ]
         },
       },

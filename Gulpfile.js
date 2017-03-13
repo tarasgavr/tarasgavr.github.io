@@ -6,7 +6,7 @@ var concatJS = require("gulp-concat");
 var pump = require('pump');
 
 gulp.task('CSS', function () {
-  return gulp.src(['javascript/css/js6.css', 'javascript/css/reset.css'])
+  return gulp.src(['javascript/css/js11.css', 'javascript/css/reset.css'])
     .pipe(concatCSS("gulp.css"))
     .pipe(cleanCSS({debug: true}, function(details) {
       console.log(details.name + ': ' + details.stats.originalSize);
@@ -17,7 +17,7 @@ gulp.task('CSS', function () {
 
 
 gulp.task("JS", function () {
-    return gulp.src(['javascript/js/6/*.js'])
+    return gulp.src(['javascript/js/jquery-3.1.1.min.js','javascript/js/11/*.js'])
           .pipe(concatJS("gulp.js"))
           .pipe(uglify())
         .pipe(gulp.dest("dest"));

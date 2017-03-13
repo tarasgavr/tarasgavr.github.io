@@ -1,4 +1,4 @@
-$(function () {
+jQuery(function () {
 
   $('.search_button').click(function (event) {
     event.preventDefault();
