@@ -1,10 +1,12 @@
 .bg {
   width: 100rem;
-  height: 100rem; }
+  height: 100rem;
+  }
 
 header {
   margin: 0.8rem auto;
-  width: 60rem; }
+  width: 60rem;
+  }
 
 .text-wrapper {
   display: inline-block;
@@ -37,7 +39,8 @@ header {
   background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.25) 0%, rgba(0, 1, 1, 0.25) 100%); }
 
 header img {
-  float: right; }
+  float: right;
+  }
 
 .hmenu-wrapper {
   width: 60rem;
@@ -47,7 +50,8 @@ header img {
 .hmenu {
   display: inline-block;
   list-style: none;
-  width: 36rem; }
+  width: 36rem;
+  }
 
 .hmenu-item {
   display: inline-block;
@@ -76,4 +80,5 @@ header img {
   width: 15.063rem;
   height: 2.5rem;
   padding: 0.4rem 0.5rem;
-  border: 0.063rem solid #181a1d; }
+  border: 0.063rem solid #181a1d;
+  }

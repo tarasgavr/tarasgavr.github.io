@@ -3,7 +3,6 @@ var uglify = require('gulp-uglify');
 var cleanCSS = require('gulp-clean-css');
 var concatCSS = require('gulp-concat-css');
 var concatJS = require("gulp-concat");
-var pump = require('pump');
 
 gulp.task('CSS', function () {
   return gulp.src(['javascript/css/js11.css', 'javascript/css/reset.css'])

@@ -29,12 +29,34 @@ module.exports = function(grunt) {
             {src : ['dest/grunt.css'], dest : 'dest/grunt.min.css'}
           ]
         }
-      }
+      },
+      sass: {
+        options: {
+          sourcemap: 'none'
+        },
+        dist: {
+          files: [{
+            expand: true,
+            cwd: 'styles',
+            src: ['js19.scss'],
+            dest: 'javascript/css',
+            ext: '.css'
+          }]
+        }
+      },
+      watch: {
+        sass: {
+          files: ['styles/js19.scss'],
+            tasks: ['sass']
+          }
+        },
   });
 
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.registerTask('default', ['concat','uglify','cssmin']);
 
