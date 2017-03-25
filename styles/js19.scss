@@ -1,12 +1,13 @@
+$center-margin : 5rem auto;
+$center-width : 60rem;
+
 .bg {
   width: 100rem;
-  height: 100rem;
-  }
+  height: 100rem; }
 
 header {
-  margin: 0.8rem auto;
-  width: 60rem;
-  }
+  margin: $center-margin;
+  width: $center-width; }
 
 .text-wrapper {
   display: inline-block;

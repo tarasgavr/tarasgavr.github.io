@@ -37,16 +37,16 @@ module.exports = function(grunt) {
         dist: {
           files: [{
             expand: true,
-            cwd: 'styles',
-            src: ['js19.scss'],
-            dest: 'javascript/css',
+            cwd: 'javascript/js/exam',
+            src: ['exam-main.scss'],
+            dest: 'javascript/js/exam',
             ext: '.css'
           }]
         }
       },
       watch: {
         sass: {
-          files: ['styles/js19.scss'],
+          files: ['javascript/js/exam/exam-main.scss'],
             tasks: ['sass']
           }
         },

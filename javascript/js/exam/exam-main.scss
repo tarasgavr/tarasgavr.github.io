@@ -1,0 +1,107 @@
+@import "../../../fonts/stylesheet.css" screen;
+
+
+$total-width : 90rem;
+
+.wrapper {
+  width: $total-width;
+  height: 212.375rem;
+  background-color: white;
+}
+header {
+  //width: $total-width;
+  height: 43.75rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+header {
+  font-family: 'Montserrat';
+  .header-text {
+    color: white;
+    font-weight: 700;
+  }
+  .bordered {
+    padding: 0.56rem 1.07rem;
+    border: 0.125rem solid white;
+    border-radius: 1.222rem;
+  }
+  .font08 {
+    font-size: 0.875rem;
+    margin-right: 1rem;
+  }
+  .share-dreams {
+    clear: both;
+    text-align: center;
+  	text-transform: uppercase;
+  }
+  .fulfil-dreams {
+    clear: both;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 300;
+  }
+  .find-partner {
+    clear: both;
+    text-align: center;
+    font-size: 0.875rem;
+  	background-color: #ff4e50;
+    border-radius: 1.222rem;
+  }
+}
+@media screen and (max-width: 495px) {
+  header {
+    background-image: url("../../img/URLAUBSGLUCK_Landing_Mobile.jpg");
+  }
+  .center {
+    margin: 1.875rem auto;
+  }
+}
+@media screen and (min-width: 497px) and (max-width: 768px) {
+  header {
+    background-image: url("../../img/URLAUBSGLUCK_Landing_Tablet.jpg");
+  }
+    .left {
+    margin: 2.827rem 15.6rem;
+    float: left;
+    font-size: 1.15rem;
+    letter-spacing: 0.125rem;
+  }
+  .right {
+    margin: 2.827rem 14.7rem;
+    float: right;
+  }
+}
+@media screen and (min-width: 770px) and (max-width: 1440px) {
+  header {
+    background-image: url("../../img/URLAUBSGLUCK_Landing_Desktop-main.jpg");
+  }
+  .share-dreams {
+    font-size: 3.25rem;
+    width: 30.875rem;
+    height: 6.313rem;
+    padding: 7rem 22rem 0;
+  }
+  .fulfil-dreams {
+    width: 24.813rem;
+    height: 1.5rem;
+    font-size: 1.5rem;
+    padding: 2rem 25.5rem;
+  }
+  .find-partner {
+    width: 14.063rem;
+    height: 2.5rem;
+    text-indent: 2rem;
+  }
+  .left {
+    margin: 2.827rem 15.6rem;
+    float: left;
+    font-size: 1.15rem;
+    letter-spacing: 0.125rem;
+  }
+  .right {
+    margin: 2.827rem 14.7rem;
+    float: right;
+  }
+}
