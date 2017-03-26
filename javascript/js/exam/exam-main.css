@@ -1,11 +1,8 @@
 @import "../../../fonts/stylesheet.css" screen;
 .wrapper {
-  width: 90rem;
-  height: 212.375rem;
   background-color: white; }
 
 header {
-  height: 43.75rem;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -34,19 +31,27 @@ header {
     font-weight: 300; }
   header .find-partner {
     clear: both;
-    text-align: center;
-    font-size: 0.875rem;
     background-color: #ff4e50;
     border-radius: 1.222rem; }
 
-@media screen and (max-width: 495px) {
+@media screen and (max-width: 320px) {
+  .wrapper {
+    width: 20rem;
+    height: 244.063rem; }
+
   header {
+    height: 33.75rem;
     background-image: url("../../img/URLAUBSGLUCK_Landing_Mobile.jpg"); }
 
   .center {
     margin: 1.875rem auto; } }
-@media screen and (min-width: 497px) and (max-width: 768px) {
+@media screen and (min-width: 322px) and (max-width: 768px) {
+  .wrapper {
+    width: 48rem;
+    height: 228.625rem; }
+
   header {
+    height: 43.75rem;
     background-image: url("../../img/URLAUBSGLUCK_Landing_Tablet.jpg"); }
 
   .left {
@@ -59,25 +64,37 @@ header {
     margin: 2.827rem 14.7rem;
     float: right; } }
 @media screen and (min-width: 770px) and (max-width: 1440px) {
+  .wrapper {
+    width: 90rem;
+    height: 212.375rem; }
+
   header {
+    height: 43.75rem;
     background-image: url("../../img/URLAUBSGLUCK_Landing_Desktop-main.jpg"); }
 
   .share-dreams {
     font-size: 3.25rem;
     width: 30.875rem;
     height: 6.313rem;
-    padding: 7rem 22rem 0; }
+    padding: 6.5rem 29.6rem 0; }
 
   .fulfil-dreams {
-    width: 24.813rem;
+    width: 25rem;
     height: 1.5rem;
     font-size: 1.5rem;
-    padding: 2rem 25.5rem; }
+    padding: 2.9rem 32.5rem; }
 
   .find-partner {
     width: 14.063rem;
     height: 2.5rem;
-    text-indent: 2rem; }
+    margin: -0.5rem 37.9rem; }
+
+  .font-partner {
+    display: block;
+    text-align: center;
+    font-size: 0.875rem;
+    line-height: 2.5rem;
+    vertical-align: middle; }
 
   .left {
     margin: 2.827rem 15.6rem;
