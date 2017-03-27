@@ -51,15 +51,23 @@ header {
     height: 33.75rem;
     background-image: url("../../img/URLAUBSGLUCK_Landing_Mobile.jpg");
   }
+  .top {
+    padding-top: 6.5rem;
+  }
+  .share-dreams {
+    clear: both;
+    text-align: center;
+    text-transform: uppercase;
+  }
   .fulfil-dreams {
-    width: 13.563rem;
+    width: 14.563rem;
     height: 2.25rem;
     font-size: 1.125rem;
   }
   .find-partner {
   	width: 17.5rem;
     height: 2.5rem;
-    margin: -0.5rem 37.9rem;
+    margin: 2.5rem 0.5rem;
     }
   .font-partner {
     display: block;
@@ -70,6 +78,7 @@ header {
   }
   .center {
     margin: 1.875rem auto;
+    width: 11rem;
   }
 }
 @media screen and (min-width: 322px) and (max-width: 768px) {
