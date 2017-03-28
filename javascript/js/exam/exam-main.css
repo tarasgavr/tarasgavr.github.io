@@ -14,7 +14,7 @@ header {
     color: white;
     font-weight: 700; }
   header .bordered {
-    padding: 0.56rem 1.07rem;
+    padding: 0.5rem 1.07rem;
     border: 0.125rem solid white;
     border-radius: 1.222rem; }
   header .font08 {
@@ -44,7 +44,8 @@ header {
     background-image: url("../../img/URLAUBSGLUCK_Landing_Mobile.jpg"); }
 
   .top {
-    padding-top: 6.5rem; }
+    padding-top: 6.5rem;
+    text-align: center; }
 
   .share-dreams {
     clear: both;
@@ -69,8 +70,8 @@ header {
     vertical-align: middle; }
 
   .center {
-    margin: 1.875rem auto;
-    width: 11rem; } }
+    margin: 1.83rem auto;
+    width: 10.8rem; } }
 @media screen and (min-width: 322px) and (max-width: 768px) {
   .wrapper {
     width: 48rem;
@@ -87,7 +88,7 @@ header {
     letter-spacing: 0.125rem; }
 
   .right {
-    margin: 2.827rem 14.7rem;
+    margin: 2.827rem 14.62rem;
     float: right; } }
 @media screen and (min-width: 770px) and (max-width: 1440px) {
   .wrapper {
@@ -129,5 +130,5 @@ header {
     letter-spacing: 0.125rem; }
 
   .right {
-    margin: 2.827rem 14.7rem;
+    margin: 2.827rem 14.62rem;
     float: right; } }
