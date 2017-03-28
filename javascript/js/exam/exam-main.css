@@ -33,6 +33,12 @@ header {
     clear: both;
     background-color: #ff4e50;
     border-radius: 1.222rem; }
+  header .font-partner {
+    display: block;
+    text-align: center;
+    font-size: 0.875rem;
+    line-height: 2.5rem;
+    vertical-align: middle; }
 
 @media screen and (max-width: 320px) {
   .wrapper {
@@ -43,11 +49,17 @@ header {
     height: 33.75rem;
     background-image: url("../../img/URLAUBSGLUCK_Landing_Mobile.jpg"); }
 
+  .center {
+    margin: 1.7rem 5rem;
+    width: 10.8rem; }
+
   .top {
-    padding-top: 6.35rem;
+    padding-top: 6.28rem;
     text-align: center;
     font-size: 1.2rem;
-    letter-spacing: 0.14rem; }
+    letter-spacing: 0.099rem;
+    position: relative;
+    left: -0.1rem; }
 
   .share-dreams {
     letter-spacing: -0.07rem;
@@ -66,18 +78,7 @@ header {
   .find-partner {
     width: 17.5rem;
     height: 2.5rem;
-    margin: 2.5rem 0.5rem; }
-
-  .font-partner {
-    display: block;
-    text-align: center;
-    font-size: 0.875rem;
-    line-height: 2.5rem;
-    vertical-align: middle; }
-
-  .center {
-    margin: 1.7rem 5rem;
-    width: 10.8rem; } }
+    margin: 2rem auto; } }
 @media screen and (min-width: 322px) and (max-width: 768px) {
   .wrapper {
     width: 48rem;
@@ -121,13 +122,6 @@ header {
     width: 14.063rem;
     height: 2.5rem;
     margin: -0.5rem 37.9rem; }
-
-  .font-partner {
-    display: block;
-    text-align: center;
-    font-size: 0.875rem;
-    line-height: 2.5rem;
-    vertical-align: middle; }
 
   .left {
     margin: 2.827rem 15.6rem;
