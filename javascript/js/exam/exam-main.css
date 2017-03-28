@@ -78,7 +78,11 @@ header {
   .find-partner {
     width: 17.5rem;
     height: 2.5rem;
-    margin: 2rem auto; } }
+    margin: 1.7rem auto; }
+
+  .font-partner {
+    position: relative;
+    left: -0.1rem; } }
 @media screen and (min-width: 322px) and (max-width: 768px) {
   .wrapper {
     width: 48rem;
@@ -89,13 +93,13 @@ header {
     background-image: url("../../img/URLAUBSGLUCK_Landing_Tablet.jpg"); }
 
   .left {
-    margin: 2.827rem 15.6rem;
+    margin: 2.827rem 2.9rem;
     float: left;
-    font-size: 1.15rem;
-    letter-spacing: 0.125rem; }
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem; }
 
   .right {
-    margin: 2.827rem 14.62rem;
+    margin: 2.827rem 2.2rem;
     float: right; } }
 @media screen and (min-width: 770px) and (max-width: 1440px) {
   .wrapper {
