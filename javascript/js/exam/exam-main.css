@@ -13,13 +13,13 @@ header {
   header .header-text {
     color: white;
     font-weight: 700; }
+  header .font08 {
+    font-size: 0.875rem;
+    margin-right: 1rem; }
   header .bordered {
     padding: 0.5rem 1.07rem;
     border: 0.125rem solid white;
     border-radius: 1.222rem; }
-  header .font08 {
-    font-size: 0.875rem;
-    margin-right: 1rem; }
   header .share-dreams {
     clear: both;
     text-align: center;
@@ -60,6 +60,13 @@ header {
     letter-spacing: 0.099rem;
     position: relative;
     left: -0.1rem; }
+
+  .top:after {
+    content: '..';
+    position: relative;
+    left: -2.8rem;
+    top: -0.8rem;
+    letter-spacing: -0rem; }
 
   .share-dreams {
     letter-spacing: -0.07rem;
@@ -124,6 +131,13 @@ header {
     font-size: 1.2rem;
     letter-spacing: 0.1rem; }
 
+  .left:after {
+    content: '..';
+    position: relative;
+    left: -2.8rem;
+    top: -0.8rem;
+    letter-spacing: -0rem; }
+
   .right {
     margin: 2.827rem 2.2rem;
     float: right; } }
@@ -158,6 +172,13 @@ header {
     float: left;
     font-size: 1.15rem;
     letter-spacing: 0.125rem; }
+
+  .left:after {
+    content: '..';
+    position: relative;
+    left: -2.8rem;
+    top: -0.8rem;
+    letter-spacing: -0rem; }
 
   .right {
     margin: 2.827rem 14.62rem;
