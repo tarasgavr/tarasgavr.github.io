@@ -8,37 +8,52 @@ header {
   background-size: cover;
   overflow: hidden; }
 
-header {
-  font-family: 'Montserrat'; }
-  header .header-text {
-    color: white;
-    font-weight: 700; }
-  header .font08 {
-    font-size: 0.875rem;
-    margin-right: 1rem; }
-  header .bordered {
-    padding: 0.5rem 1.07rem;
-    border: 0.125rem solid white;
-    border-radius: 1.222rem; }
-  header .share-dreams {
-    clear: both;
-    text-align: center;
-    text-transform: uppercase; }
-  header .fulfil-dreams {
-    clear: both;
-    text-align: center;
-    font-family: Roboto;
-    font-weight: 300; }
-  header .find-partner {
-    clear: both;
-    background-color: #ff4e50;
-    border-radius: 1.222rem; }
-  header .font-partner {
-    display: block;
-    text-align: center;
-    font-size: 0.875rem;
-    line-height: 2.5rem;
-    vertical-align: middle; }
+.header-text {
+  font-family: 'Montserrat';
+  color: white;
+  font-weight: 700; }
+
+.font08 {
+  font-size: 0.875rem;
+  margin-right: 1rem; }
+
+.bordered {
+  padding: 0.5rem 1.07rem;
+  border: 0.125rem solid white;
+  border-radius: 1.222rem; }
+
+.share-dreams {
+  clear: both;
+  text-align: center;
+  text-transform: uppercase; }
+
+.fulfil-dreams {
+  clear: both;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 300; }
+
+.find-partner {
+  clear: both;
+  background-color: #ff4e50;
+  border-radius: 1.222rem; }
+
+.font-partner {
+  display: block;
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 2.5rem;
+  vertical-align: middle; }
+
+.how-it-works {
+  margin: 5.9rem auto 2.5rem;
+  width: 18rem;
+  height: 1.375rem;
+  color: #333;
+  font-size: 1.375rem; }
+
+.jcarousel-list {
+  list-style: none; }
 
 @media screen and (max-width: 320px) {
   .wrapper {
@@ -89,7 +104,11 @@ header {
 
   .font-partner {
     position: relative;
-    left: -0.1rem; } }
+    left: -0.1rem; }
+
+  main {
+    margin: 0 auto;
+    width: 18.75rem; } }
 @media screen and (min-width: 322px) and (max-width: 768px) {
   .wrapper {
     width: 48rem;
@@ -140,7 +159,11 @@ header {
 
   .right {
     margin: 2.827rem 2.2rem;
-    float: right; } }
+    float: right; }
+
+  main {
+    margin: 0 auto;
+    width: 46.5625rem; } }
 @media screen and (min-width: 770px) and (max-width: 1440px) {
   .wrapper {
     width: 90rem;
@@ -182,4 +205,17 @@ header {
 
   .right {
     margin: 2.827rem 14.62rem;
-    float: right; } }
+    float: right; }
+
+  main {
+    margin: 0 auto;
+    width: 59.0625rem; }
+
+  .jcarousel {
+    display: inline-block; }
+
+  .padding1 {
+    padding-right: 1rem; }
+
+  .padding2 {
+    padding-right: 1.125rem; } }

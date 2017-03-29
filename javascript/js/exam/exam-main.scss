@@ -4,15 +4,15 @@
 .wrapper {
   background-color: white;
 }
+//header stars
 header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   overflow: hidden;
 }
-header {
-  font-family: 'Montserrat';
   .header-text {
+    font-family: 'Montserrat';
     color: white;
     font-weight: 700;
   }
@@ -33,7 +33,7 @@ header {
   .fulfil-dreams {
     clear: both;
     text-align: center;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: 300;
   }
   .find-partner {
@@ -48,12 +48,27 @@ header {
     line-height: 2.5rem;
     vertical-align: middle;
   }
+//header ends
+//main starts
+.how-it-works {
+  margin: 5.9rem auto 2.5rem;
+  width: 18rem;
+  height: 1.375rem;
+  color: #333;
+  font-size: 1.375rem;
 }
+.jcarousel-list {
+  list-style: none;
+}
+//main ends
+//footer starts
+//footer ends
 @media screen and (max-width: 320px) {
   .wrapper {
     width: 20rem;
     height: 244.063rem;
   }
+  //header starts
   header {
     height: 33.75rem;
     background-image: url("../../img/URLAUBSGLUCK_Landing_Mobile.jpg");
@@ -100,12 +115,22 @@ header {
     position: relative;
     left: -0.1rem;
   }
+  //header ends
+  //main starts
+  main {
+    margin: 0 auto;
+    width: 18.75rem;
+  }
+  //main ends
+  //footer starts
+  //footer ends
 }
 @media screen and (min-width: 322px) and (max-width: 768px) {
   .wrapper {
     width: 48rem;
     height: 228.625rem;
   }
+  //header starts
   header {
     height: 43.75rem;
     background-image: url("../../img/URLAUBSGLUCK_Landing_Tablet.jpg");
@@ -153,12 +178,22 @@ header {
     margin: 2.827rem 2.2rem;
     float: right;
   }
+  //header ends
+  //main starts
+  main {
+    margin: 0 auto;
+    width: 46.5625rem;
+  }
+  //main ends
+  //footer starts
+  //footer ends
 }
 @media screen and (min-width: 770px) and (max-width: 1440px) {
   .wrapper {
     width: 90rem;
     height: 212.375rem;
   }
+  //header starts
   header {
     height: 43.75rem;
     background-image: url("../../img/URLAUBSGLUCK_Landing_Desktop-main.jpg");
@@ -197,4 +232,22 @@ header {
     margin: 2.827rem 14.62rem;
     float: right;
   }
+  //header ends
+  //main starts
+  main {
+    margin: 0 auto;
+    width: 59.0625rem;
+  }
+  .jcarousel {
+    display: inline-block;
+  }
+  .padding1 {
+    padding-right: 1rem;
+  }
+  .padding2 {
+    padding-right: 1.125rem;
+  }
+  //main ends
+  //footer starts
+  //footer ends
 }
