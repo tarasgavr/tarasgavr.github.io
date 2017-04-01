@@ -1,7 +1,9 @@
 @import "../../../fonts/stylesheet.css" screen;
 
+$total-width: 100%;
 
 .wrapper {
+  width: $total-width;
   background-color: white;
 }
 //header stars
@@ -64,6 +66,7 @@ header {
 //footer starts
 //footer ends
 @media screen and (max-width: 320px) {
+
   .wrapper {
     width: 20rem;
     height: 244.063rem;
@@ -125,7 +128,8 @@ header {
   //footer starts
   //footer ends
 }
-@media screen and (min-width: 322px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+
   .wrapper {
     width: 48rem;
     height: 228.625rem;
@@ -172,7 +176,7 @@ header {
     position: relative;
     left: -2.8rem;
     top: -0.9rem;
-    letter-spacing: -0rem;
+    letter-spacing: -0;
   }
   .right {
     margin: 2.827rem 2.2rem;
@@ -188,10 +192,13 @@ header {
   //footer starts
   //footer ends
 }
-@media screen and (min-width: 770px) and (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
+  $width: 78.9375rem;
+  $height: 212.375rem;
+  $total-height: $height / $width*100%;
+  $wkoef: $total-width / $width;
   .wrapper {
-    width: 90rem;
-    height: 212.375rem;
+    height: $total-height;
   }
   //header starts
   header {
@@ -200,23 +207,23 @@ header {
   }
   .share-dreams {
     font-size: 3.25rem;
-    width: 30.875rem;
+    width: 39%;
     height: 6.313rem;
-    padding: 6.5rem 29.6rem 0;
+    padding: 6.2rem 30.5% 0;
     }
   .fulfil-dreams {
-    width: 25rem;
+    width: 31.5%;
     height: 1.5rem;
     font-size: 1.5rem;
-    padding: 2.9rem 32.5rem;
+    padding: 2.9rem 34.27%;
     }
   .find-partner {
-    width: 14.063rem;
+    width: 18%;
     height: 2.5rem;
-    margin: -0.5rem 37.9rem;
+    margin: -0.5rem 41%;
     }
   .left {
-    margin: 2.827rem 15.6rem;
+    margin: 3.7% 12.9%;
     float: left;
     font-size: 1.15rem;
     letter-spacing: 0.125rem;
@@ -224,28 +231,28 @@ header {
   .left:after {
     content: '..';
     position: relative;
-    left: -2.8rem;
+    left: -23.675%;
     top: -0.9rem;
     letter-spacing: -0rem;
   }
   .right {
-    margin: 2.827rem 14.62rem;
+    margin: 3.7% 11.4%;
     float: right;
   }
   //header ends
   //main starts
   main {
     margin: 0 auto;
-    width: 59.0625rem;
+    width: 59.0625%;
   }
   .jcarousel {
     display: inline-block;
   }
   .padding1 {
-    padding-right: 1rem;
+    padding-right: 1%;
   }
   .padding2 {
-    padding-right: 1.125rem;
+    padding-right: 1.125%;
   }
   //main ends
   //footer starts
