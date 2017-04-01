@@ -209,13 +209,25 @@ header {
 
   main {
     margin: 0 auto;
-    width: 59.0625%; }
+    width: 74.3%; }
 
   .jcarousel {
     display: inline-block; }
 
   .padding1 {
-    padding-right: 1%; }
+    padding-right: 1.6%; }
 
   .padding2 {
-    padding-right: 1.125%; } }
+    padding-right: 1.525%; }
+
+  .jcarousel-prev {
+    width: 1.875rem;
+    height: 3.438rem;
+    opacity: 0.5;
+    background-color: white; }
+
+  .jcarousel-next {
+    width: 1.875rem;
+    height: 3.438rem;
+    opacity: 0.5;
+    background-color: white; } }
