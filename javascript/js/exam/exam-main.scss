@@ -113,6 +113,16 @@ header {
 	font-size: 0.875rem;
 	font-weight: 300;
 }
+.meet-partner {
+	color: #333;
+	font-size: 1.375rem;
+	font-weight: 700;
+}
+.search-partner {
+	color: #ff4e50;
+	font-size: 0.875rem;
+	font-weight: 700;
+}
 //main ends
 //footer starts
 //footer ends
@@ -353,6 +363,31 @@ header {
     position: relative;
     left: 14.4%;
     top: -9rem;
+  }
+  .separate-meet-partner {
+    position: relative;
+    top: -2.2rem;
+    text-align: center;
+  }
+  .partner1 {
+    margin-left: 3.1rem;
+    position: relative;
+    top: -0.5rem;
+  }
+  .partner2 {
+    position: relative;
+    top: -0.4rem;
+    margin-left: 7.3rem;
+  }
+  .partner3 {
+    position: relative;
+    top: -0.5rem;
+    margin-left: 7.2rem;
+  }
+  .partner4 {
+    margin-left: 7.2rem;
+    position: relative;
+    top: -0.2rem;
   }
   //main ends
   //footer starts

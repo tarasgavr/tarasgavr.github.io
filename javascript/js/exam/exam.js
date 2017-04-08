@@ -11,7 +11,6 @@ $(function() {
       }
      }
     });
-
     $('.jcarousel-prev').click(function() {
       $('.jcarousel').jcarousel('scroll', '-=1');
     });
