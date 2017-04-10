@@ -18,4 +18,9 @@ $(function() {
     $('.jcarousel-next').click(function() {
       $('.jcarousel').jcarousel('scroll', '+=1');
     });
+    $('.grid').masonry({
+      percentPosition: true,
+      columnWidth: '.grid-sizer',
+      itemSelector: '.grid-item'
+    });
 });

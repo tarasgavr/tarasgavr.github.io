@@ -119,9 +119,36 @@ header {
 	font-weight: 700;
 }
 .search-partner {
+  width: 11.75rem;
+	height: 2.4rem;
+	background-color: white;
+	border: 0.125rem solid #ff4e50;
+	border-radius: 20px;
 	color: #ff4e50;
 	font-size: 0.875rem;
 	font-weight: 700;
+  line-height: 2.5rem;
+  vertical-align: middle;
+  text-align: center;
+  margin: 3.2rem auto;
+  display: block;
+}
+.title-partner {
+  width: 12.125rem;
+  height: 0.875rem;
+  color: #333;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-align: center;
+}
+.description-partner {
+  width: 13.125rem;
+	height: 1.813rem;
+  color: #666;
+  font-family: Roboto;
+  font-size: 0.875rem;
+  font-weight: 300;
+  text-align: center;
 }
 //main ends
 //footer starts
@@ -369,27 +396,70 @@ header {
     top: -2.2rem;
     text-align: center;
   }
-  .partner1 {
-    margin-left: 3.1rem;
-    position: relative;
-    top: -0.5rem;
+  .screen, .partner {
+    display: inline-block;
   }
-  .partner2 {
+  .img-partner1 {
+    margin-left: 24%;
     position: relative;
-    top: -0.4rem;
-    margin-left: 7.3rem;
+    top: -2.5rem;
   }
-  .partner3 {
+  .img-partner2 {
     position: relative;
-    top: -0.5rem;
-    margin-left: 7.2rem;
+    top: -2.5rem;
+    margin-left: 36%;
   }
-  .partner4 {
-    margin-left: 7.2rem;
+  .img-partner3 {
     position: relative;
-    top: -0.2rem;
+    top: -0.3rem;
+    margin-left: 49%;
+  }
+  .img-partner4 {
+    margin-left: 61%;
+    position: relative;
+    top: -2.5rem;
+  }
+  .title-partner1 {
+    position: relative;
+    left: 6.3%;
+    top: -1.7rem;
+  }
+  .description-partner1 {
+    position: relative;
+    left: 2.3%;
+    top: -0.9rem;
+  }
+  .title-partner2 {
+    position: relative;
+    left: 19%;
+    top: -1.7rem;
+  }
+  .description-partner2 {
+    position: relative;
+    left: 14.5%;
+    top: -0.9rem;
+  }
+  .title-partner3 {
+    position: relative;
+    left: 31.3%;
+    top: 0.6rem;
+  }
+  .description-partner3 {
+    position: relative;
+    left: 27.3%;
+    top: 1.6rem;
+  }
+  .title-partner4 {
+    position: relative;
+    left: 43%;
+    top: -1.7rem;
+  }
+  .description-partner4 {
+    position: relative;
+    left: 38.8%;
+    top: -0.9rem;
   }
   //main ends
-  //footer starts
+  //footer stasrts
   //footer ends
 }
