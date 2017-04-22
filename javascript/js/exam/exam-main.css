@@ -200,6 +200,7 @@ header {
   line-height: 1.5rem; }
 
 .footer-caption {
+  width: 4.5rem;
   color: #333;
   font-size: 0.875rem;
   font-weight: 700; }
@@ -497,10 +498,10 @@ header {
 
   .grid-item {
     display: inline-block;
-    margin-bottom: 1.7%; }
+    margin-bottom: 0.927rem; }
 
   .margined {
-    margin-right: 2.2%; }
+    margin-right: 1.2rem; }
 
   .grid-item--width2 {
     width: 65.5%; }
