@@ -498,10 +498,10 @@ header {
 
   .grid-item {
     display: inline-block;
-    margin-bottom: 14.832px; }
+    margin-bottom: 1.7rem; }
 
   .margined {
-    margin-right: 19.2px; }
+    margin-right: 2%; }
 
   .grid-item--width2 {
     width: 65.5%; }
