@@ -14,13 +14,12 @@ $(function() {
     $('.jcarousel-prev').click(function() {
       $('.jcarousel').jcarousel('scroll', '-=1');
     });
-
     $('.jcarousel-next').click(function() {
       $('.jcarousel').jcarousel('scroll', '+=1');
     });
     $('.grid').masonry({
       percentPosition: true,
-      columnWidth: '.grid-sizer',
+      columnWidth: $grid.find('.grid-sizer')[0],
       itemSelector: '.grid-item'
     });
 });

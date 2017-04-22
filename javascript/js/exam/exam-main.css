@@ -5,6 +5,7 @@
   font-family: 'Montserrat'; }
 
 header {
+  width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -144,13 +145,90 @@ header {
   font-weight: 300;
   text-align: center; }
 
+.grid-text {
+  color: white;
+  font-size: 1.375rem;
+  font-weight: 700;
+  position: absolute; }
+
+.discover-ideas {
+  color: #333;
+  font-size: 1.375rem;
+  font-weight: 700; }
+
+.holiday-interest {
+  color: #333;
+  font-family: Roboto;
+  font-size: 1.125rem;
+  font-weight: 300; }
+
+.text-partner {
+  background-color: white;
+  border: 0.063rem solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0.063rem 0 #eee;
+  color: #999;
+  font-family: Roboto;
+  font-size: 0.875rem;
+  font-weight: 300;
+  text-indent: 1rem; }
+
+.go-partner {
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 700;
+  background-color: #ff4e50;
+  border-radius: 20px; }
+
+.line {
+  width: 100%;
+  height: 0.25rem;
+  background-color: #ff4e50; }
+
+.footer-text {
+  color: #ff4e50;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.footer-menu-item {
+  display: block;
+  color: #666;
+  font-family: Roboto;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.5rem; }
+
+.footer-caption {
+  color: #333;
+  font-size: 0.875rem;
+  font-weight: 700; }
+
+.made-by {
+  color: #ccc;
+  font-size: 0.625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem; }
+
+.logo-firm {
+  color: #ff4e50;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.125rem; }
+
+.subtitle {
+  color: #ff4e50;
+  font-size: 0.425rem;
+  font-weight: 700;
+  letter-spacing: 0.125rem; }
+
 @media screen and (max-width: 320px) {
   .wrapper {
-    width: 20rem;
     height: 244.063rem; }
 
   header {
-    height: 33.75rem;
+    height: 21.43%;
     background-image: url("../../img/URLAUBSGLUCK_Landing_Mobile.jpg"); }
 
   .center {
@@ -234,7 +312,7 @@ header {
     left: -0.1rem; }
 
   .left {
-    margin: 2.827rem 2.9rem;
+    margin: 6% 6.9%;
     float: left;
     font-size: 1.2rem;
     letter-spacing: 0.1rem; }
@@ -247,7 +325,7 @@ header {
     letter-spacing: -0; }
 
   .right {
-    margin: 2.827rem 2.2rem;
+    margin: 5.7% 4%;
     float: right; }
 
   main {
@@ -255,7 +333,7 @@ header {
     width: 46.5625rem; } }
 @media screen and (max-width: 1440px) {
   .wrapper {
-    height: 235.97222%; }
+    height: 212.375rem; }
 
   header {
     height: 43.75rem;
@@ -312,49 +390,33 @@ header {
     left: 4%;
     margin-left: -11%; }
 
-  .var1 {
+  .var1, .mod1, .chn1, .var2, .mod2, .chn2, .var3, .mod3, .chn3 {
     position: relative;
     left: 14.4%;
     top: -11rem; }
 
   .mod1 {
-    position: relative;
-    left: 14.4%;
     top: -10rem; }
 
   .chn1 {
-    position: relative;
-    left: 14.4%;
     top: -8.9rem; }
 
   .var2 {
-    position: relative;
-    left: 14.4%;
     top: -9rem; }
 
   .mod2 {
-    position: relative;
-    left: 14.4%;
     top: -8.2rem; }
 
   .chn2 {
-    position: relative;
-    left: 14.4%;
     top: -9.2rem; }
 
   .var3 {
-    position: relative;
-    left: 14.4%;
     top: -11rem; }
 
   .mod3 {
-    position: relative;
-    left: 14.4%;
     top: -10rem; }
 
   .chn3 {
-    position: relative;
-    left: 14.4%;
     top: -9rem; }
 
   .separate-meet-partner {
@@ -365,14 +427,12 @@ header {
   .screen, .partner {
     display: inline-block; }
 
-  .img-partner1 {
+  .img-partner1, .img-partner2, .img-partner4 {
     margin-left: 24%;
     position: relative;
     top: -2.5rem; }
 
   .img-partner2 {
-    position: relative;
-    top: -2.5rem;
     margin-left: 36%; }
 
   .img-partner3 {
@@ -381,9 +441,7 @@ header {
     margin-left: 49%; }
 
   .img-partner4 {
-    margin-left: 61%;
-    position: relative;
-    top: -2.5rem; }
+    margin-left: 61%; }
 
   .title-partner1 {
     position: relative;
@@ -423,4 +481,119 @@ header {
   .description-partner4 {
     position: relative;
     left: 38.8%;
-    top: -0.9rem; } }
+    top: -0.9rem; }
+
+  .upper-ideas, .lower-ideas {
+    margin: 10.6% auto 3.3%;
+    width: 36.33%;
+    height: 1.375rem; }
+
+  .lower-ideas {
+    position: relative;
+    top: -1.4rem; }
+
+  .grid-sizer, .grid-item {
+    width: 31.5%; }
+
+  .grid-item {
+    display: inline-block;
+    margin-bottom: 1.7%; }
+
+  .margined {
+    margin-right: 2.2%; }
+
+  .grid-item--width2 {
+    width: 65.5%; }
+
+  .text-idea1 {
+    top: 126.2rem;
+    left: 16.7%; }
+
+  .text-idea2 {
+    top: 126.1rem;
+    left: 41.7%; }
+
+  .text-idea3 {
+    width: 15%;
+    top: 125.3rem;
+    left: 68.5%; }
+
+  .text-idea4 {
+    top: 146.4rem;
+    left: 21.8%; }
+
+  .text-idea5 {
+    top: 146.7rem;
+    left: 53%; }
+
+  .text-idea6 {
+    top: 167.4rem;
+    left: 32.7%; }
+
+  .text-idea7 {
+    top: 167.3rem;
+    left: 71.2%; }
+
+  .other-interest {
+    margin: -1.2rem auto 1.2rem;
+    width: 29.8%; }
+
+  .form-partner {
+    margin: 2% auto 8.7%;
+    width: 44%; }
+
+  .other-text-partner {
+    margin: 1.2rem 0.7%;
+    width: 57.8%;
+    height: 2.3rem; }
+
+  .other-go-partner {
+    width: 39.3%;
+    height: 2.3rem; }
+
+  footer {
+    margin: 0 auto;
+    width: 74.3%; }
+
+  .footer-mn {
+    padding: 2.2rem 25.5% 0;
+    list-style-type: none; }
+
+  .footer-mn-it {
+    padding-top: 0.6rem; }
+
+  .footer-ht {
+    float: left;
+    padding-top: 2.2rem;
+    letter-spacing: 0.05rem; }
+
+  .footer-pts {
+    position: relative;
+    top: -7.5rem;
+    left: 42.6%; }
+
+  .designer {
+    float: right;
+    position: relative;
+    top: -8.5rem;
+    left: 0.1%; }
+
+  .produced {
+    position: relative;
+    left: 26%; }
+
+  .picture {
+    display: inline-block;
+    position: relative;
+    top: 0.5rem;
+    left: -3%; }
+
+  .firm {
+    display: inline-block;
+    position: relative;
+    left: 2%; }
+
+  .icon {
+    position: relative;
+    top: -0.2rem;
+    left: 28.5%; } }
