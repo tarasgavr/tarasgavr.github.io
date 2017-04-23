@@ -494,7 +494,7 @@ header {
     top: -1.4rem; }
 
   .grid-sizer, .grid-item {
-    width: 31.5%; }
+    width: 301px; }
 
   .grid-item {
     display: inline-block;
@@ -504,7 +504,7 @@ header {
     margin-right: 19.2px; }
 
   .grid-item--width2 {
-    width: 65.5%; }
+    width: 619px; }
 
   .text-idea1 {
     top: 126.2rem;
