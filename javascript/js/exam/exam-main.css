@@ -332,7 +332,7 @@ header {
   main {
     margin: 0 auto;
     width: 46.5625rem; } }
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 770px) and (max-width: 1440px) {
   .wrapper {
     height: 212.375rem; }
 
@@ -494,7 +494,7 @@ header {
     top: -1.4rem; }
 
   .grid-sizer, .grid-item {
-    width: 31.5%; }
+    width: 300px; }
 
   .grid-item {
     display: inline-block;
@@ -504,7 +504,7 @@ header {
     margin-right: 19.2px; }
 
   .grid-item--width2 {
-    width: 65.5%; }
+    width: 619px; }
 
   .text-idea1 {
     top: 126.2rem;
