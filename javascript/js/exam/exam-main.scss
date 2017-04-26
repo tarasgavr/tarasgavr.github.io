@@ -240,7 +240,7 @@ header {
   }
   //header starts
   header {
-    height: 21.43%;
+    height: 33.75rem;
     background-image: url("../../img/URLAUBSGLUCK_Landing_Mobile.jpg");
   }
   .center {
@@ -295,7 +295,7 @@ header {
   //footer starts
   //footer ends
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 322px) and (max-width: 768px) {
 
   .wrapper {
     width: 48rem;
