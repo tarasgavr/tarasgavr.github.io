@@ -60,23 +60,11 @@ header {
 .jcarousel-list {
   list-style: none; }
 
-.jcarousel-prev {
+.jbutton {
   width: 1.875rem;
   height: 3.438rem;
   opacity: 0.5;
-  background-color: white;
-  position: relative;
-  left: 3.5rem;
-  top: -12rem; }
-
-.jcarousel-next {
-  width: 1.875rem;
-  height: 3.438rem;
-  opacity: 0.5;
-  background-color: white;
-  position: relative;
-  left: -3.5rem;
-  top: -12rem; }
+  background-color: white; }
 
 .step {
   width: 4.375rem;
@@ -388,6 +376,16 @@ header {
     position: relative;
     left: 4%;
     margin-left: -11%; }
+
+  .jcarousel-prev {
+    position: relative;
+    left: 3.5rem;
+    top: -12rem; }
+
+  .jcarousel-next {
+    position: relative;
+    left: -3.5rem;
+    top: -12rem; }
 
   .var1, .mod1, .chn1, .var2, .mod2, .chn2, .var3, .mod3, .chn3 {
     position: relative;
