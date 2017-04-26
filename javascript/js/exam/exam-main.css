@@ -277,7 +277,7 @@ header {
   main {
     margin: 0 auto;
     width: 18.75rem; } }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .wrapper {
     width: 48rem;
     height: 228.625rem; }
