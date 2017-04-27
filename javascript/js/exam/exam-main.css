@@ -226,8 +226,7 @@ header {
       text-align: center;
       font-size: 1.2rem;
       letter-spacing: 0.099rem;
-      position: relative;
-      left: -0.3rem; }
+      margin-left: 0.3rem; }
     header .top:after {
       content: '..';
       position: relative;
@@ -256,10 +255,9 @@ header {
     margin: 0 auto;
     width: 18.75rem; }
     main .how-it-works {
-      margin: 2.75rem auto 2.5rem; } }
+      margin: 2.1rem auto 1.2rem; } }
 @media screen and (min-width: 322px) and (max-width: 768px) {
   .wrapper {
-    width: 48rem;
     height: 228.625rem; }
 
   header {
