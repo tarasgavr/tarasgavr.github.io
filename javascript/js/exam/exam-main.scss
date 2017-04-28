@@ -118,8 +118,10 @@ header {
   line-height: 2.5rem;
   vertical-align: middle;
   text-align: center;
-  margin: 3.2rem auto;
   display: block;
+}
+.partner {
+  position: relative;
 }
 .title-partner {
   width: 12.125rem;
@@ -130,7 +132,7 @@ header {
   text-align: center;
 }
 .description-partner {
-  width: 13.125rem;
+  width: 13.5rem;
 	height: 1.813rem;
   color: #666;
   font-family: Roboto;
@@ -280,7 +282,6 @@ header {
     .img-mob {
       width: 18.75rem;
     	height: 15rem;
-    	background-color: #ff8523;
     	border-radius: 4px;
     }
     .jcarousel-prev,.jcarousel-next {
@@ -408,12 +409,12 @@ header {
     margin: 5.9rem auto 2.5rem;
   }
   .padding1 {
-    padding-right: 1.6%;
-    margin-left: -3.5%;
+    position: relative;
+    margin-right: 1.6%;
   }
   .padding2 {
-    padding-right: 1.525%;
-    margin-left: -7.5%;
+    position: relative;
+    margin-right: 8.625%;
   }
   .padding3 {
     position: relative;
@@ -421,120 +422,106 @@ header {
     margin-left: -11%;
   }
   .jcarousel-prev {
-    position: relative;
-    left: 3.5rem;
-    top: -12rem;
+    position: absolute;
+    left: 1.5rem;
+    top: 9rem;
   }
   .jcarousel-next {
-    position: relative;
-    left: -3.5rem;
-    top: -12rem;
+    position: absolute;
+    left: 15.5rem;
+    top: 9rem;
   }
-  .var1 {
-    position: relative;
-    left: 14.4%;
-    top: -11rem;
+  .var1,.var3 {
+    position: absolute;
+    left: 7%;
+    top: 14.3rem;
   }
-  .mod1 {
+  .mod1,.mod3 {
     @extend .var1;
-    top: -10rem;
+    top: 16.5rem;
   }
-  .chn1 {
+  .chn1,.chn3 {
     @extend .var1;
-    top: -8.9rem;
+    top: 20.7rem;
   }
   .var2 {
     @extend .var1;
-    top: -9rem;
+    top: 16rem;
   }
   .mod2 {
     @extend .var1;
-    top: -8.2rem;
+    top: 18.2rem;
   }
   .chn2 {
     @extend .var1;
-    top: -9.2rem;
-  }
-  .var3 {
-    @extend .var1;
-    top: -11rem;
-  }
-  .mod3 {
-    @extend .var1;
-    top: -10rem;
-  }
-  .chn3 {
-    @extend .var1;
-    top: -9rem;
+    top: 20.5rem;
   }
   .separate-meet-partner {
-    position: relative;
-    top: -2.2rem;
+    width: 26.063rem;
+    height: 1.375rem;
+    margin: 5.47rem auto 2.55rem;
     text-align: center;
   }
   .screen, .partner {
     display: inline-block;
   }
   .img-partner1 {
-    margin-left: 24%;
-    position: relative;
-    top: -2.5rem;
+    left: 3.2rem;
+    position: absolute;
+    top: -1.3rem;
   }
   .img-partner2 {
     @extend .img-partner1;
-    margin-left: 36%;
+    left: 17.9rem;
+    top: -1rem;
   }
   .img-partner3 {
-    position: relative;
-    top: -0.3rem;
-    margin-left: 49%;
+    @extend .img-partner1;
+    left: 32.7rem;
   }
   .img-partner4 {
-    margin-left: 61%;
+    left: 47.5rem;
     @extend .img-partner1;
   }
   .title-partner1 {
-    position: relative;
-    left: 6.3%;
-    top: -1.7rem;
+    @extend .img-partner1;
+    left: 0.9rem;
+    top: 7.7rem;
   }
   .description-partner1 {
-    position: relative;
-    left: 2.3%;
-    top: -0.9rem;
+    @extend .img-partner1;
+    left: 0.1rem;
+    top: 9.4rem;
   }
   .title-partner2 {
-    position: relative;
-    left: 19%;
-    top: -1.7rem;
+    @extend .title-partner1;
+    left: 15.6rem;
   }
   .description-partner2 {
-    position: relative;
-    left: 14.5%;
-    top: -0.9rem;
+    @extend .description-partner1;
+    left: 14.8rem;
   }
   .title-partner3 {
-    position: relative;
-    left: 31.3%;
-    top: 0.6rem;
+    @extend .title-partner1;
+    left: 30.3rem;
   }
   .description-partner3 {
-    position: relative;
-    left: 27.3%;
-    top: 1.6rem;
+    @extend .description-partner1;
+    left: 29.5rem;
   }
   .title-partner4 {
-    position: relative;
-    left: 43%;
-    top: -1.7rem;
+    @extend .title-partner1;
+    left: 45rem;
   }
   .description-partner4 {
-    position: relative;
-    left: 38.8%;
-    top: -0.9rem;
+    @extend .description-partner1;
+    left: 44.3rem;
+  }
+  .separate-search-partner {
+    margin: 15.625rem auto 0;
   }
   .upper-ideas {
-    margin: 10.6% auto 3.3%;
+    margin: 5.8rem auto 2.7rem;
     width: 36.33%;
     height: 1.375rem;
   }
