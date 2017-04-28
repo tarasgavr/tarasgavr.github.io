@@ -255,7 +255,14 @@ header {
     margin: 0 auto;
     width: 18.75rem; }
     main .how-it-works {
-      margin: 2.1rem auto 1.2rem; } }
+      margin: 2.1rem auto 1.2rem; }
+    main .padding1, main .padding2, main .padding3 {
+      width: 18.75rem;
+      height: 15rem;
+      background-color: #ff8523;
+      border-radius: 4px; }
+    main .jcarousel-prev, main .jcarousel-next {
+      display: none; } }
 @media screen and (min-width: 322px) and (max-width: 768px) {
   .wrapper {
     height: 228.625rem; }
