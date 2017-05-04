@@ -229,7 +229,7 @@ header {
   }
   //header starts
   header {
-    height: 33.75em;
+    height: 33.75rem;
     background-image: url("../../img/URLAUBSGLUCK_Landing_Mobile.jpg");
     .center {
       margin: 1.7rem 5.1rem;
@@ -278,6 +278,14 @@ header {
     width: 18.75rem;
     .how-it-works {
       margin: 2.1rem auto 1.2rem;
+      position: relative;
+    }
+    .how-it-works:after {
+      content: '..';
+      position: absolute;
+      left: 57%;
+      top: -0.9rem;
+      letter-spacing: -0rem;
     }
     .img-mob {
       width: 18.75rem;
@@ -286,6 +294,40 @@ header {
     }
     .jcarousel-prev,.jcarousel-next {
       display: none;
+    }
+    .jcarousel {
+      position: relative;
+      display: block;
+    }
+    .var1,.var3 {
+      position: absolute;
+      left: 6%;
+      top: 5.3rem;
+    }
+    .mod1,.mod3 {
+      position: absolute;
+      left: 7%;
+      top: 6.5rem;
+    }
+    .chn1,.chn3 {
+      position: absolute;
+      left: 7%;
+      top: 10.7rem;
+    }
+    .var2 {
+      position: absolute;
+      left: 6%;
+      top: 8rem;
+    }
+    .mod2 {
+      position: absolute;
+      left: 7%;
+      top: 9.2rem;
+    }
+    .chn2 {
+      position: absolute;
+      left: 7%;
+      top: 10.5rem;
     }
   }
   //main ends
@@ -407,6 +449,14 @@ header {
   }
   .how-it-works {
     margin: 5.9rem auto 2.5rem;
+    position: relative;
+  }
+  .how-it-works:after {
+    content: '..';
+    position: absolute;
+    left: 57%;
+    top: -0.9rem;
+    letter-spacing: -0rem;
   }
   .padding1 {
     position: relative;
@@ -427,7 +477,7 @@ header {
     top: 9rem;
   }
   .jcarousel-next {
-    position: absolute;
+  	position: absolute;
     left: 15.5rem;
     top: 9rem;
   }
@@ -437,23 +487,28 @@ header {
     top: 14.3rem;
   }
   .mod1,.mod3 {
-    @extend .var1;
+    position: absolute;
+    left: 7%;
     top: 16.5rem;
   }
   .chn1,.chn3 {
-    @extend .var1;
+    position: absolute;
+    left: 7%;
     top: 20.7rem;
   }
   .var2 {
-    @extend .var1;
+    position: absolute;
+    left: 7%;
     top: 16rem;
   }
   .mod2 {
-    @extend .var1;
+    position: absolute;
+    left: 7%;
     top: 18.2rem;
   }
   .chn2 {
-    @extend .var1;
+    position: absolute;
+    left: 7%;
     top: 20.5rem;
   }
   .separate-meet-partner {

@@ -218,7 +218,7 @@ header {
     height: 244.063rem; }
 
   header {
-    height: 33.75em;
+    height: 33.75rem;
     background-image: url("../../img/URLAUBSGLUCK_Landing_Mobile.jpg"); }
     header .center {
       margin: 1.7rem 5.1rem;
@@ -257,13 +257,47 @@ header {
     margin: 0 auto;
     width: 18.75rem; }
     main .how-it-works {
-      margin: 2.1rem auto 1.2rem; }
+      margin: 2.1rem auto 1.2rem;
+      position: relative; }
+    main .how-it-works:after {
+      content: '..';
+      position: absolute;
+      left: 57%;
+      top: -0.9rem;
+      letter-spacing: -0rem; }
     main .img-mob {
       width: 18.75rem;
       height: 15rem;
       border-radius: 4px; }
     main .jcarousel-prev, main .jcarousel-next {
-      display: none; } }
+      display: none; }
+    main .jcarousel {
+      position: relative;
+      display: block; }
+    main .var1, main .var3 {
+      position: absolute;
+      left: 6%;
+      top: 5.3rem; }
+    main .mod1, main .mod3 {
+      position: absolute;
+      left: 7%;
+      top: 6.5rem; }
+    main .chn1, main .chn3 {
+      position: absolute;
+      left: 7%;
+      top: 10.7rem; }
+    main .var2 {
+      position: absolute;
+      left: 6%;
+      top: 8rem; }
+    main .mod2 {
+      position: absolute;
+      left: 7%;
+      top: 9.2rem; }
+    main .chn2 {
+      position: absolute;
+      left: 7%;
+      top: 10.5rem; } }
 @media screen and (min-width: 322px) and (max-width: 768px) {
   .wrapper {
     height: 228.625rem; }
@@ -365,7 +399,15 @@ header {
     width: 74.3%; }
 
   .how-it-works {
-    margin: 5.9rem auto 2.5rem; }
+    margin: 5.9rem auto 2.5rem;
+    position: relative; }
+
+  .how-it-works:after {
+    content: '..';
+    position: absolute;
+    left: 57%;
+    top: -0.9rem;
+    letter-spacing: -0rem; }
 
   .padding1 {
     position: relative;
@@ -390,24 +432,34 @@ header {
     left: 15.5rem;
     top: 9rem; }
 
-  .var1, .mod1, .mod3, .chn1, .chn3, .var2, .mod2, .chn2, .var3 {
+  .var1, .var3 {
     position: absolute;
     left: 7%;
     top: 14.3rem; }
 
   .mod1, .mod3 {
+    position: absolute;
+    left: 7%;
     top: 16.5rem; }
 
   .chn1, .chn3 {
+    position: absolute;
+    left: 7%;
     top: 20.7rem; }
 
   .var2 {
+    position: absolute;
+    left: 7%;
     top: 16rem; }
 
   .mod2 {
+    position: absolute;
+    left: 7%;
     top: 18.2rem; }
 
   .chn2 {
+    position: absolute;
+    left: 7%;
     top: 20.5rem; }
 
   .separate-meet-partner {
