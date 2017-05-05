@@ -329,6 +329,23 @@ header {
       left: 7%;
       top: 10.5rem;
     }
+    .separate-meet-partner {
+      margin: 1.9rem auto 0.6rem;
+      text-align: center;
+    }
+    .partner {
+      height: 14.75rem;
+    }
+    .img-partner1 {
+      display: block;
+      margin: 0 auto;
+    }
+    .title-partner1 {
+      margin: 1rem auto;
+    }
+    .description-partner1 {
+      margin: 0 auto;
+    }
   }
   //main ends
   //footer starts
@@ -513,7 +530,6 @@ header {
   }
   .separate-meet-partner {
     width: 26.063rem;
-    height: 1.375rem;
     margin: 5.47rem auto 2.55rem;
     text-align: center;
   }
@@ -526,51 +542,59 @@ header {
     top: -1.3rem;
   }
   .img-partner2 {
-    @extend .img-partner1;
+    position: absolute;
     left: 17.9rem;
     top: -1rem;
   }
   .img-partner3 {
-    @extend .img-partner1;
+    position: absolute;
     left: 32.7rem;
+    top: -1.3rem;
   }
   .img-partner4 {
     left: 47.5rem;
-    @extend .img-partner1;
+    position: absolute;
+    top: -1.3rem;
   }
   .title-partner1 {
-    @extend .img-partner1;
+    position: absolute;
     left: 0.9rem;
     top: 7.7rem;
   }
   .description-partner1 {
-    @extend .img-partner1;
+    position: absolute;
     left: 0.1rem;
     top: 9.4rem;
   }
   .title-partner2 {
-    @extend .title-partner1;
+    position: absolute;
     left: 15.6rem;
+    top: 7.7rem;
   }
   .description-partner2 {
-    @extend .description-partner1;
+    position: absolute;
     left: 14.8rem;
+    top: 9.4rem;
   }
   .title-partner3 {
-    @extend .title-partner1;
+    position: absolute;
     left: 30.3rem;
+    top: 7.7rem;
   }
   .description-partner3 {
-    @extend .description-partner1;
+    position: absolute;
     left: 29.5rem;
+    top: 9.4rem;
   }
   .title-partner4 {
-    @extend .title-partner1;
+    position: absolute;
     left: 45rem;
+    top: 7.7rem;
   }
   .description-partner4 {
-    @extend .description-partner1;
+    position: absolute;
     left: 44.3rem;
+    top: 9.4rem;
   }
   .separate-search-partner {
     margin: 15.625rem auto 0;

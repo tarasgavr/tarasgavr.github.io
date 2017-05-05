@@ -297,7 +297,19 @@ header {
     main .chn2 {
       position: absolute;
       left: 7%;
-      top: 10.5rem; } }
+      top: 10.5rem; }
+    main .separate-meet-partner {
+      margin: 1.9rem auto 0.6rem;
+      text-align: center; }
+    main .partner {
+      height: 14.75rem; }
+    main .img-partner1 {
+      display: block;
+      margin: 0 auto; }
+    main .title-partner1 {
+      margin: 1rem auto; }
+    main .description-partner1 {
+      margin: 0 auto; } }
 @media screen and (min-width: 322px) and (max-width: 768px) {
   .wrapper {
     height: 228.625rem; }
@@ -464,53 +476,71 @@ header {
 
   .separate-meet-partner {
     width: 26.063rem;
-    height: 1.375rem;
     margin: 5.47rem auto 2.55rem;
     text-align: center; }
 
   .screen, .partner {
     display: inline-block; }
 
-  .img-partner1, .img-partner2, .img-partner3, .img-partner4, .title-partner1, .title-partner2, .title-partner3, .title-partner4, .description-partner1, .description-partner2, .description-partner3, .description-partner4 {
+  .img-partner1 {
     left: 3.2rem;
     position: absolute;
     top: -1.3rem; }
 
   .img-partner2 {
+    position: absolute;
     left: 17.9rem;
     top: -1rem; }
 
   .img-partner3 {
-    left: 32.7rem; }
+    position: absolute;
+    left: 32.7rem;
+    top: -1.3rem; }
 
   .img-partner4 {
-    left: 47.5rem; }
+    left: 47.5rem;
+    position: absolute;
+    top: -1.3rem; }
 
-  .title-partner1, .title-partner2, .title-partner3, .title-partner4 {
+  .title-partner1 {
+    position: absolute;
     left: 0.9rem;
     top: 7.7rem; }
 
-  .description-partner1, .description-partner2, .description-partner3, .description-partner4 {
+  .description-partner1 {
+    position: absolute;
     left: 0.1rem;
     top: 9.4rem; }
 
   .title-partner2 {
-    left: 15.6rem; }
+    position: absolute;
+    left: 15.6rem;
+    top: 7.7rem; }
 
   .description-partner2 {
-    left: 14.8rem; }
+    position: absolute;
+    left: 14.8rem;
+    top: 9.4rem; }
 
   .title-partner3 {
-    left: 30.3rem; }
+    position: absolute;
+    left: 30.3rem;
+    top: 7.7rem; }
 
   .description-partner3 {
-    left: 29.5rem; }
+    position: absolute;
+    left: 29.5rem;
+    top: 9.4rem; }
 
   .title-partner4 {
-    left: 45rem; }
+    position: absolute;
+    left: 45rem;
+    top: 7.7rem; }
 
   .description-partner4 {
-    left: 44.3rem; }
+    position: absolute;
+    left: 44.3rem;
+    top: 9.4rem; }
 
   .separate-search-partner {
     margin: 15.625rem auto 0; }
