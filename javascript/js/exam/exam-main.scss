@@ -223,7 +223,6 @@ header {
 }
 //footer ends
 @media screen and (max-width: 320px) {
-
   .wrapper {
     height: 244.063rem;
   }
@@ -236,11 +235,10 @@ header {
       width: 10.8rem;
     }
     .top {
-      padding-top: 6.28rem;
+      padding-top: 6.27rem 4rem 0 4.35rem;
       text-align: center;
       font-size: 1.2rem;
       letter-spacing: 0.099rem;
-      margin-left: 0.3rem;
     }
     .top:after {
       content: '..';
@@ -298,6 +296,7 @@ header {
     .jcarousel {
       position: relative;
       display: block;
+      margin-top: 0.4rem;
     }
     .var1,.var3 {
       position: absolute;
@@ -336,14 +335,14 @@ header {
     .partner {
       height: 14.75rem;
     }
-    .img-partner1 {
+    .img-partner1,.img-partner2,.img-partner3,.img-partner4 {
       display: block;
       margin: 0 auto;
     }
-    .title-partner1 {
+    .title-partner1,.title-partner2,.title-partner3,.title-partner4 {
       margin: 1rem auto;
     }
-    .description-partner1 {
+    .description-partner1,.description-partner2,.description-partner3,.description-partner4 {
       margin: 0 auto;
     }
   }

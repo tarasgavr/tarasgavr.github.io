@@ -224,11 +224,10 @@ header {
       margin: 1.7rem 5.1rem;
       width: 10.8rem; }
     header .top {
-      padding-top: 6.28rem;
+      padding-top: 6.27rem 4rem 0 4.35rem;
       text-align: center;
       font-size: 1.2rem;
-      letter-spacing: 0.099rem;
-      margin-left: 0.3rem; }
+      letter-spacing: 0.099rem; }
     header .top:after {
       content: '..';
       position: relative;
@@ -273,7 +272,8 @@ header {
       display: none; }
     main .jcarousel {
       position: relative;
-      display: block; }
+      display: block;
+      margin-top: 0.4rem; }
     main .var1, main .var3 {
       position: absolute;
       left: 6%;
@@ -303,12 +303,12 @@ header {
       text-align: center; }
     main .partner {
       height: 14.75rem; }
-    main .img-partner1 {
+    main .img-partner1, main .img-partner2, main .img-partner3, main .img-partner4 {
       display: block;
       margin: 0 auto; }
-    main .title-partner1 {
+    main .title-partner1, main .title-partner2, main .title-partner3, main .title-partner4 {
       margin: 1rem auto; }
-    main .description-partner1 {
+    main .description-partner1, main .description-partner2, main .description-partner3, main .description-partner4 {
       margin: 0 auto; } }
 @media screen and (min-width: 322px) and (max-width: 768px) {
   .wrapper {
