@@ -309,7 +309,28 @@ header {
     main .title-partner1, main .title-partner2, main .title-partner3, main .title-partner4 {
       margin: 1rem auto; }
     main .description-partner1, main .description-partner2, main .description-partner3, main .description-partner4 {
-      margin: 0 auto; } }
+      margin: 0 auto; }
+    main .separate-search-partner {
+      margin: 1.65rem auto 0; }
+    main .upper-ideas {
+      margin: 5.8rem auto 2.7rem;
+      width: 36.33%;
+      height: 1.375rem; }
+    main .lower-ideas {
+      position: relative;
+      top: -1.4rem; }
+    main .grid-sizer, main .grid-item {
+      width: 31.5%; }
+    main .grid-item {
+      display: inline-block;
+      margin-bottom: 14.4px; }
+    main .margined {
+      margin-right: 19.2px; }
+    main .grid-item--width2 {
+      width: 619px; }
+    main .text-idea1 {
+      top: 126.2rem;
+      left: 16.7%; } }
 @media screen and (min-width: 322px) and (max-width: 768px) {
   .wrapper {
     height: 228.625rem; }

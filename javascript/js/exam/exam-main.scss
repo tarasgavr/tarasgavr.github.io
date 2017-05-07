@@ -345,6 +345,35 @@ header {
     .description-partner1,.description-partner2,.description-partner3,.description-partner4 {
       margin: 0 auto;
     }
+    .separate-search-partner {
+      margin: 1.65rem auto 0;
+    }
+    .upper-ideas {
+      margin: 5.8rem auto 2.7rem;
+      width: 36.33%;
+      height: 1.375rem;
+    }
+    .lower-ideas {
+      position: relative;
+      top: -1.4rem;
+    }
+    .grid-sizer, .grid-item {
+      width: 31.5%;
+    }
+    .grid-item {
+      display: inline-block;
+      margin-bottom: 14.4px;
+    }
+    .margined {
+      margin-right: 19.2px;
+    }
+    .grid-item--width2 {
+      width: 619px;
+    }
+    .text-idea1 {
+      top: 126.2rem;
+      left: 16.7%;
+    }
   }
   //main ends
   //footer starts
@@ -598,7 +627,7 @@ header {
   .separate-search-partner {
     margin: 15.625rem auto 0;
   }
-  .upper-ideas {
+  .upper-ideas,.lower-ideas {
     margin: 5.8rem auto 2.7rem;
     width: 36.33%;
     height: 1.375rem;
@@ -606,7 +635,6 @@ header {
   .lower-ideas {
     position: relative;
     top: -1.4rem;
-    @extend .upper-ideas;
   }
   .grid-sizer, .grid-item {
     width: 31.5%;
