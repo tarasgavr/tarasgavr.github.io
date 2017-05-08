@@ -22,7 +22,7 @@ $(function() {
       columnWidth: $grid.find('.grid-sizer')[0],
       itemSelector: '.grid-item'
     });
-    if (window.innerWidth == '320px') {
+    if (window.innerWidth === 320) {
       document.getElementsByClassName('.img-partner2').setAttribute('src','img/URLAUBSGLUCK_Landing_Desktop-partner3.jpg');
       document.getElementsByClassName('.img-partner3').setAttribute('src','img/URLAUBSGLUCK_Landing_Desktop-partner2.jpg');
     }
