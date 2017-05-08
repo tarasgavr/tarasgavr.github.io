@@ -311,6 +311,7 @@ header {
     main .description-partner1, main .description-partner2, main .description-partner3, main .description-partner4 {
       margin: 0 auto; }
     main .separate-search-partner {
+      width: 17.5rem;
       margin: 1.65rem auto 0; }
     main .upper-ideas {
       margin: 5.8rem auto 2.7rem;
