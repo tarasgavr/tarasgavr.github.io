@@ -1,7 +1,7 @@
 if ($(window).width() != 320) {
   $('.grid').masonry({
     percentPosition: true,
-    columnWidth: $grid.find('.grid-sizer')[0],
+    columnWidth: $('.grid').find('.grid-sizer')[0],
     itemSelector: '.grid-item'
   });
 } else {
