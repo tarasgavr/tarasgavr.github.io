@@ -358,13 +358,14 @@ header {
       position: relative;
       top: -1.4rem;
     }
-    .grid-sizer, .grid-item, .grid-item--width2 {
+    // .grid-sizer, .grid-item, .grid-item--width2 {
+    .grid-item img {
       width: 18.75rem;
-    	height: 7.5rem;
+    	height: 7rem;
     }
-    .grid-item {
-      margin-bottom: 14.4px;
-    }
+    // .grid-item {
+    //   margin-bottom: 14.4px;
+    // }
     .text-idea1 {
       top: 126.2rem;
       left: 16.7%;
