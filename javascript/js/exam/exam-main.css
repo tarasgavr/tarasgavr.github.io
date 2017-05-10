@@ -320,15 +320,11 @@ header {
     main .lower-ideas {
       position: relative;
       top: -1.4rem; }
-    main .grid-sizer, main .grid-item {
-      width: 31.5%; }
+    main .grid-sizer, main .grid-item, main .grid-item--width2 {
+      width: 18.75rem;
+      height: 7.5rem; }
     main .grid-item {
-      display: inline-block;
       margin-bottom: 14.4px; }
-    main .margined {
-      margin-right: 19.2px; }
-    main .grid-item--width2 {
-      width: 619px; }
     main .text-idea1 {
       top: 126.2rem;
       left: 16.7%; } }
