@@ -5,8 +5,8 @@ if ($(window).width() != 320) {
     itemSelector: '.grid-item'
   });
 } else {
-  $('.img-partner2').attr('src',"img/URLAUBSGLUCK_Landing_Desktop-partner3.jpg");
-  console.log($('.img-partner2'));
+  ('.mm1').clone().replaceWith($('.mm2'));
+  ('.mm2').clone().replaceWith($('.mm1'));
 }
 $(function() {
     $('.jcarousel').jcarousel({

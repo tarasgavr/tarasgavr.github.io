@@ -335,9 +335,21 @@ header {
     .partner {
       height: 14.75rem;
     }
-    .img-partner1,.img-partner2,.img-partner3,.img-partner4 {
+    .img-partner1 {
       display: block;
-      margin: 0 auto;
+      margin: 0.8rem auto;
+    }
+    .img-partner2 {
+      display: block;
+      margin: -0.5rem auto;
+    }
+    .img-partner3 {
+      display: block;
+      margin: 1.7rem auto;
+    }
+    .img-partner4 {
+      display: block;
+      margin: 0.8rem auto;
     }
     .title-partner1,.title-partner2,.title-partner3,.title-partner4 {
       margin: 1rem auto;
@@ -358,16 +370,37 @@ header {
       position: relative;
       top: -1.4rem;
     }
-    // .grid-sizer, .grid-item, .grid-item--width2 {
     .grid-item img {
       width: 18.75rem;
     	height: 7rem;
+      position: relative;
     }
-    // .grid-item {
-    //   margin-bottom: 14.4px;
-    // }
     .text-idea1 {
-      top: 126.2rem;
+      top: 169rem;
+      left: 16.7%;
+    }
+    .text-idea2 {
+      top: 176rem;
+      left: 16.7%;
+    }
+    .text-idea3 {
+      top: 183rem;
+      left: 16.7%;
+    }
+    .text-idea4 {
+      top: 190rem;
+      left: 16.7%;
+    }
+    .text-idea5 {
+      top: 198rem;
+      left: 16.7%;
+    }
+    .text-idea6 {
+      top: 205rem;
+      left: 16.7%;
+    }
+    .text-idea7 {
+      top: 212rem;
       left: 16.7%;
     }
   }
