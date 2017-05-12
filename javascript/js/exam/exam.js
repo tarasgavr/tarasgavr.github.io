@@ -26,6 +26,6 @@ $(function() {
     });
     if ($(window).width() === 320) {
       $('.mm1').clone().replaceWith($('.mm2'));
-      //$('.mm2').clone().replaceWith($('.mm1'));
+      $('.mm2').clone().replaceWith($('.mm1'));
     }
 });
