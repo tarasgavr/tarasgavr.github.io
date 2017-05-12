@@ -4,9 +4,6 @@ if ($(window).width() != 320) {
     columnWidth: $('.grid').find('.grid-sizer')[0],
     itemSelector: '.grid-item'
   });
-} else {
-  ('.mm1').clone().replaceWith($('.mm2'));
-  ('.mm2').clone().replaceWith($('.mm1'));
 }
 $(function() {
     $('.jcarousel').jcarousel({
@@ -27,4 +24,8 @@ $(function() {
     $('.jcarousel-next').click(function() {
       $('.jcarousel').jcarousel('scroll', '+=1');
     });
+    if ($(window).width() === 320) {
+      $('.mm1').clone().replaceWith($('.mm2'));
+      //$('.mm2').clone().replaceWith($('.mm1'));
+    }
 });
