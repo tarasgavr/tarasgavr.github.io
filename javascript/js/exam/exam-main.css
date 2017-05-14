@@ -414,7 +414,49 @@ header {
       position: absolute;
       left: 57%;
       top: -0.9rem;
-      letter-spacing: -0rem; } }
+      letter-spacing: -0rem; }
+    main .padding1 {
+      position: relative;
+      margin-right: 1.6%; }
+    main .padding2 {
+      position: relative;
+      margin-right: 8.625%; }
+    main .padding3 {
+      position: relative;
+      left: 4%;
+      margin-left: -11%; }
+    main .jcarousel-prev {
+      position: absolute;
+      left: 1.5rem;
+      top: 9rem; }
+    main .jcarousel-next {
+      position: absolute;
+      left: 15.5rem;
+      top: 9rem; }
+    main .var1, main .var3 {
+      position: absolute;
+      left: 7%;
+      top: 14.3rem; }
+    main .mod1, main .mod3 {
+      position: absolute;
+      left: 7%;
+      top: 16.5rem; }
+    main .chn1, main .chn3 {
+      position: absolute;
+      left: 7%;
+      top: 20.7rem; }
+    main .var2 {
+      position: absolute;
+      left: 7%;
+      top: 16rem; }
+    main .mod2 {
+      position: absolute;
+      left: 7%;
+      top: 18.2rem; }
+    main .chn2 {
+      position: absolute;
+      left: 7%;
+      top: 20.5rem; } }
 @media screen and (min-width: 770px) and (max-width: 1440px) {
   .wrapper {
     height: 212.375rem; }

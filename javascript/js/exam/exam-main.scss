@@ -475,7 +475,59 @@ header {
       top: -0.9rem;
       letter-spacing: -0rem;
     }
-
+    .padding1 {
+      position: relative;
+      margin-right: 1.6%;
+    }
+    .padding2 {
+      position: relative;
+      margin-right: 8.625%;
+    }
+    .padding3 {
+      position: relative;
+      left: 4%;
+      margin-left: -11%;
+    }
+    .jcarousel-prev {
+      position: absolute;
+      left: 1.5rem;
+      top: 9rem;
+    }
+    .jcarousel-next {
+      position: absolute;
+      left: 15.5rem;
+      top: 9rem;
+    }
+    .var1,.var3 {
+      position: absolute;
+      left: 7%;
+      top: 14.3rem;
+    }
+    .mod1,.mod3 {
+      position: absolute;
+      left: 7%;
+      top: 16.5rem;
+    }
+    .chn1,.chn3 {
+      position: absolute;
+      left: 7%;
+      top: 20.7rem;
+    }
+    .var2 {
+      position: absolute;
+      left: 7%;
+      top: 16rem;
+    }
+    .mod2 {
+      position: absolute;
+      left: 7%;
+      top: 18.2rem;
+    }
+    .chn2 {
+      position: absolute;
+      left: 7%;
+      top: 20.5rem;
+    }
   }
   //main ends
   //footer starts
