@@ -431,24 +431,25 @@ header {
       position: relative; }
     main .jcarousel-prev {
       position: absolute;
-      left: 1.5rem;
-      top: 9rem; }
+      left: 0.5rem;
+      top: 2rem; }
     main .jcarousel-next {
       position: absolute;
-      left: 15.5rem;
-      top: 9rem; }
+      left: 11.5rem;
+      top: 2rem; }
     main .var1, main .var3 {
       position: absolute;
-      left: 7%;
-      top: 14.3rem; }
+      left: 8%;
+      top: 13rem; }
     main .mod1, main .mod3 {
       position: absolute;
       left: 7%;
-      top: 16.5rem; }
+      top: 15rem; }
     main .chn1, main .chn3 {
+      width: 14rem;
       position: absolute;
       left: 7%;
-      top: 20.7rem; }
+      top: 19rem; }
     main .var2 {
       position: absolute;
       left: 7%;
@@ -458,6 +459,7 @@ header {
       left: 7%;
       top: 18.2rem; }
     main .chn2 {
+      width: 12rem;
       position: absolute;
       left: 7%;
       top: 20.5rem; } }
