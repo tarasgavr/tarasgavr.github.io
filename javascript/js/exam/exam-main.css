@@ -416,17 +416,17 @@ header {
       top: -0.9rem;
       letter-spacing: -0rem; }
     main .img-mob {
-      width: 14.75rem; }
+      width: 14.75rem;
+      height: 25rem; }
+    main .jcarousel {
+      width: 14.75rem;
+      height: 25rem; }
     main .padding1 {
       position: relative;
-      margin-right: 1.6%; }
+      margin: 0 1rem 0 -0.2rem; }
     main .padding2 {
       position: relative;
-      margin-right: 8.625%; }
-    main .padding3 {
-      position: relative;
-      left: 4%;
-      margin-left: -11%; }
+      margin-right: 0.9rem; }
     main .jcarousel-prev {
       position: absolute;
       left: 1.5rem;
