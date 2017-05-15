@@ -427,6 +427,8 @@ header {
     main .padding2 {
       position: relative;
       margin-right: 0.9rem; }
+    main .padding3 {
+      position: relative; }
     main .jcarousel-prev {
       position: absolute;
       left: 1.5rem;
