@@ -534,11 +534,11 @@ header {
       position: relative; }
     main .grid-item {
       display: inline-block;
-      margin-bottom: 14.4px; }
+      margin-bottom: 0.9rem; }
     main .margined {
-      margin-right: 19.2px; }
-    main .grid-item--width2 {
-      width: 619px; }
+      margin-right: 1rem; }
+    main .grid-item--width2 img {
+      width: 30.75rem; }
     main .text-idea1 {
       top: 126.2rem;
       left: 16.7%; }
