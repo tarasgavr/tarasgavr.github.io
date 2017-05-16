@@ -518,16 +518,20 @@ header {
       left: 24.1rem;
       top: 24.3rem; }
     main .separate-search-partner {
-      margin: 15.625rem auto 0; }
+      margin: 30.5rem 0 0 17rem; }
     main .upper-ideas, main .lower-ideas {
-      margin: 5.8rem auto 2.7rem;
-      width: 36.33%;
+      margin: 5.9rem auto 2.6rem 12.5rem;
+      width: 21.25rem;
       height: 1.375rem; }
     main .lower-ideas {
       position: relative;
       top: -1.4rem; }
     main .grid-sizer, main .grid-item {
       width: 31.5%; }
+    main .grid-item img {
+      width: 14.75rem;
+      height: 19.375rem;
+      position: relative; }
     main .grid-item {
       display: inline-block;
       margin-bottom: 14.4px; }
