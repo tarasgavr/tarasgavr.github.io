@@ -625,7 +625,7 @@ header {
       position: relative;
     }
     .grid-left {
-      margin-left: -02rem;
+      margin-left: -0.2rem;
     }
     .grid-item {
       display: inline-block;
@@ -638,49 +638,50 @@ header {
       width: 30.75rem;
     }
     .text-idea1 {
-      top: 126.2rem;
-      left: 16.7%;
+      top: 142.4rem;
+      left: 16.7rem;
     }
     .text-idea2 {
-      top: 126.1rem;
-      left: 41.7%;
+      width: 12rem;
+      top: 141.6rem;
+      left: 17.9rem;
     }
     .text-idea3 {
-      width: 15%;
-      top: 125.3rem;
-      left: 68.5%;
+      width: 12rem;
+      top: 141.5rem;
+      left: 33.825rem;
     }
     .text-idea4 {
       top: 146.4rem;
-      left: 21.8%;
+      left: 21.8rem;
     }
     .text-idea5 {
       top: 146.7rem;
-      left: 53%;
+      left: 53rem;
     }
     .text-idea6 {
       top: 167.4rem;
-      left: 32.7%;
+      left: 32.7rem;
     }
     .text-idea7 {
       top: 167.3rem;
-      left: 71.2%;
+      left: 71.2rem;
     }
     .other-interest {
       margin: -1.2rem auto 1.2rem;
-      width: 29.8%;
+      width: 29.8rem;
     }
     .form-partner {
-      margin: 2% auto 8.7%;
-      width: 44%;
+      margin: 2rem auto 8.7rem;
+      width: 44rem;
     }
     .other-text-partner {
-      margin: 1.2rem 0.7%;
-      width: 57.8%;
+      margin: 1.2rem 0.7rem;
+      width: 57.8rem;
       height: 2.3rem;
     }
     .other-go-partner {
-      width: 39.3%;
+      width: 39.3rem;
       height: 2.3rem;
     }
   }
@@ -688,10 +689,10 @@ header {
   //footer starts
   footer {
     margin: 0 auto;
-    width: 74.3%;
+    width: 74.3rem;
   }
   .footer-mn {
-    padding: 2.2rem 25.5% 0;
+    padding: 2.2rem 25.5rem 0;
     list-style-type: none;
   }
   .footer-mn-it {
@@ -705,33 +706,33 @@ header {
   .footer-pts {
     position: relative;
     top: -7.5rem;
-    left: 42.6%;
+    left: 42.6rem;
   }
   .designer {
     float: right;
     position: relative;
     top: -8.5rem;
-    left: 0.1%;
+    left: 0.1rem;
   }
   .produced {
     position: relative;
-    left: 26%;
+    left: 26rem;
   }
   .picture {
     display: inline-block;
     position: relative;
     top: 0.5rem;
-    left: -3%;
+    left: -3rem;
   }
   .firm {
     display: inline-block;
     position: relative;
-    left: 2%;
+    left: 2rem;
   }
   .icon {
     position: relative;
     top: -0.2rem;
-    left: 28.5%;
+    left: 28.5rem;
   }
   //footer ends
 }
