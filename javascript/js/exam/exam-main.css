@@ -526,10 +526,13 @@ header {
     main .lower-ideas {
       position: relative;
       top: -1.4rem; }
-    main .grid-sizer, main .grid-item, main .grid-item img {
-      width: 31.5%;
+    main .grid-sizer, main .grid-item {
+      width: 31.5%; }
+    main .grid-item img {
+      width: 14.75rem;
+      height: 19.375rem;
       position: relative; }
-    main .img-left {
+    main .grid-left {
       margin-left: -02rem; }
     main .grid-item {
       display: inline-block;

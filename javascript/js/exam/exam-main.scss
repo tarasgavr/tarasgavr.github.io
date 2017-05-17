@@ -616,15 +616,15 @@ header {
       position: relative;
       top: -1.4rem;
     }
-    .grid-sizer, .grid-item, .grid-item img {
+    .grid-sizer, .grid-item {
       width: 31.5%;
+    }
+    .grid-item img {
+      width: 14.75rem;
+      height: 19.375rem;
       position: relative;
     }
-    // .grid-item img {
-    //   width: 14.75rem;
-    //   height: 19.375rem;
-    // }
-    .img-left {
+    .grid-left {
       margin-left: -02rem;
     }
     .grid-item {
