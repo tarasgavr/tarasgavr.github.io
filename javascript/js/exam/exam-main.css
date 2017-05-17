@@ -520,24 +520,23 @@ header {
     main .separate-search-partner {
       margin: 30.5rem 0 0 17rem; }
     main .upper-ideas, main .lower-ideas {
-      margin: 5.9rem auto 2.6rem 12.5rem;
+      margin: 5.9rem auto 2.5rem 12.5rem;
       width: 21.25rem;
       height: 1.375rem; }
     main .lower-ideas {
       position: relative;
       top: -1.4rem; }
-    main .grid-sizer, main .grid-item {
-      width: 31.5%; }
-    main .grid-item img {
-      width: 14.75rem;
-      height: 19.375rem;
+    main .grid-sizer, main .grid-item, main .grid-item img {
+      width: 31.5%;
       position: relative; }
+    main .img-left {
+      margin-left: -02rem; }
     main .grid-item {
       display: inline-block;
       margin-bottom: 0.9rem; }
     main .margined {
       margin-right: 1rem; }
-    main .grid-item--width2 img {
+    main .grid-item--width2 img, main .grid-item--width2 {
       width: 30.75rem; }
     main .text-idea1 {
       top: 126.2rem;
