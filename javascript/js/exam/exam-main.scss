@@ -622,7 +622,6 @@ header {
     .grid-item img {
       width: 14.75rem;
       height: 19.375rem;
-      position: relative;
     }
     .grid-left {
       margin-left: -0.2rem;
@@ -630,6 +629,7 @@ header {
     .grid-item {
       display: inline-block;
       margin-bottom: 0.9rem;
+      position: relative;
     }
     .margined {
       margin-right: 1rem;

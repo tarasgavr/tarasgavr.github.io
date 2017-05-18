@@ -530,13 +530,13 @@ header {
       width: 31.5%; }
     main .grid-item img {
       width: 14.75rem;
-      height: 19.375rem;
-      position: relative; }
+      height: 19.375rem; }
     main .grid-left {
       margin-left: -0.2rem; }
     main .grid-item {
       display: inline-block;
-      margin-bottom: 0.9rem; }
+      margin-bottom: 0.9rem;
+      position: relative; }
     main .margined {
       margin-right: 1rem; }
     main .grid-item--width2 img, main .grid-item--width2 {

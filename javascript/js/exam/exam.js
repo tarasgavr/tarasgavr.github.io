@@ -25,7 +25,9 @@ $(function() {
       $('.jcarousel').jcarousel('scroll', '+=1');
     });
     if ($(window).width() === 320) {
-      $('.mm1').clone().replaceWith($('.mm2'));
-      $('.mm2').clone().replaceWith($('.mm1'));
+      $('.hide').css('display','block');
+      $('.show').css('display','none');
+    } else {
+      $('.hide').css('display','none');
     }
 });
