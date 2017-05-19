@@ -674,16 +674,17 @@ header {
       width: 29.8rem;
     }
     .form-partner {
-      margin: 2rem auto 6.7rem;
+      margin: 2.22rem auto 6.48rem;
       width: 26rem;
     }
     .other-text-partner {
       width: 14.8rem;
-      height: 2.3rem;
+      height: 2.4rem;
+      margin-right: 0.25rem;
     }
     .other-go-partner {
       width: 10.3rem;
-      height: 2.3rem;
+      height: 2.4rem;
     }
   }
   //main ends
@@ -701,7 +702,7 @@ header {
   }
   .footer-ht {
     float: left;
-    padding-top: 2.2rem 1.6rem;
+    padding: 2.2rem 1.6rem;
     letter-spacing: 0.05rem;
   }
   .footer-pts {
@@ -712,12 +713,12 @@ header {
   .designer {
     float: right;
     position: relative;
-    top: -8.5rem;
-    left: 0.1rem;
+    top: -8.6rem;
+    left: 0.7rem;
   }
   .produced {
     position: relative;
-    left: 26rem;
+    left: -1rem;
   }
   .picture {
     display: inline-block;
@@ -728,12 +729,12 @@ header {
   .firm {
     display: inline-block;
     position: relative;
-    left: 2rem;
+    left: -2.6rem;
   }
   .icon {
     position: relative;
-    top: -0.2rem;
-    left: 28.5rem;
+    top: -0.1rem;
+    left: -0.8rem;
   }
   //footer ends
 }
