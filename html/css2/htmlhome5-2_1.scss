@@ -1,0 +1,41 @@
+@mixin whvalue($val){
+       width: $val;
+       height: $val;
+}
+@mixin bcolor($cl){
+  background-color: $cl;
+}
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+td {
+  @include whvalue(50px);
+}
+.cell {
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000
+}
+.cellv {
+  visibility: hidden;
+}
+.c7 {
+  height: 100px;
+}
+.c13 {
+  @include whvalue(100px);
+}
+.c5 {
+  @include bcolor(red);
+}
+.c3,
+.c6,
+.c13 {
+  @include bcolor(yellow);
+}
+.c10 {
+  @include bcolor(black);
+}
+.c16 {
+  @include bcolor(blue);
+}
