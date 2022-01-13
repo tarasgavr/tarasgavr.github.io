@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.table {
+    width: 250px;
+    height: 350px;
+    margin: auto;
+    display: grid;
+    grid-template-areas: 
+                        'a b b c c'
+                        'd e e f f'
+                        'g e e h j'
+                        'g e e h j'
+                        'k l m n n'
+                        'k l m n n'
+                        'k o p r r';
+}
+.table div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+}
+.table div:nth-child(2) {
+     grid-area: b; 
+}
+ .table div:nth-child(3) {
+     grid-area: c;
+     background: #ff0;  
+}
+.table div:nth-child(5) {
+    grid-area: e;
+    background: #f00;
+}
+.table div:nth-child(6) {
+    grid-area: f;
+    background: #ff0;
+}
+.table div:nth-child(7) {
+    grid-area: g;
+}
+.table div:nth-child(8) {
+    grid-area: h;
+}
+.table div:nth-child(9) {
+    grid-area: j;
+}
+ .table div:nth-child(10) {
+     grid-area: k;
+     background: #000;
+}
+.table div:nth-child(11) {
+    grid-area: l;
+}
+.table div:nth-child(12) {
+    grid-area: m;
+}
+.table div:nth-child(13) {
+    grid-area: n;
+    background: #ff0;
+}
+ .table div:nth-child(16) {
+     grid-area: r;
+     background: #00f;
+}
