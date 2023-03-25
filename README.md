@@ -1,1 +1,1 @@
-# tarasgavr-github_io
+# tarasgavr.goit-github_io
